@@ -159,6 +159,7 @@
 		68130FB31A91808400910EB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				68130FE01A91808400910EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68130FE11A91808400910EB5 /* Build configuration list for PBXNativeTarget "PhysicsSpritesTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				68130FE31A91808400910EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

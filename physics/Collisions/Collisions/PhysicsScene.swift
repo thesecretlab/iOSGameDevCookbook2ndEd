@@ -32,11 +32,11 @@ class PhysicsScene: SKScene, SKPhysicsContactDelegate {
     
     // BEGIN physics_contact
     func didBeginContact(contact: SKPhysicsContact) {
-        println("Contact started between \(contact.bodyA) and \(contact.bodyB)")
+        print("Contact started between \(contact.bodyA) and \(contact.bodyB)")
     }
     
     func didEndContact(contact: SKPhysicsContact) {
-        println("Contact ended between \(contact.bodyA) and \(contact.bodyB)")
+        print("Contact ended between \(contact.bodyA) and \(contact.bodyB)")
     }
     // END physics_contact
     

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
 // BEGIN log
-for connectedScreen in UIScreen.screens() as! [UIScreen] {
+for connectedScreen in UIScreen.screens() as [UIScreen] {
     if connectedScreen == UIScreen.mainScreen() {
         NSLog("Main screen: \(connectedScreen)")
     } else {
@@ -36,11 +36,11 @@ if UIScreen.screens().count >= 2 {
     // in the storyboard with the Identifier "ExternalScreen"
     let viewController = self.storyboard?
         .instantiateViewControllerWithIdentifier("ExternalScreen")
-        as? UIViewController
+    
     
     // Try and get the last screen..
     if let connectedScreen
-        = UIScreen.screens().last as? UIScreen {
+        = UIScreen.screens().last {
             
         // Create a window, and put the view controller in it
         let window = UIWindow(frame: connectedScreen.bounds)

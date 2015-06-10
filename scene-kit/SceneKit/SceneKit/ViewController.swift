@@ -231,8 +231,13 @@ class ViewController: UIViewController {
         
         // BEGIN collada_adding
         // Find the node called 'Critter'; if it exists, add it
-        let critterNode = critterData?.entryWithIdentifier("Critter",
-            withClass: SCNNode.self) as? SCNNode
+        // TODO: This is broken in Xcode 7.
+        //let critterNode : SCNNode? = critterData.entryWithIdentifier("Critter",
+        //    withClass: SCNNode.self) as! SCNNode?
+        
+        // TODO: Delete this temporary replacement.
+        let critterNode : SCNNode? = SCNNode(geometry: SCNCapsule(capRadius: 1.0, height: 4.0))
+        
         if critterNode != nil {
             critterNode?.position = SCNVector3(x: 5, y: 0, z: 0)
             scene.rootNode.addChildNode(critterNode!)
@@ -302,10 +307,10 @@ class ViewController: UIViewController {
             // Find the object that was tapped
             let sceneView = self.view as! SCNView
             let hits = sceneView.hitTest(locationToQuery,
-                                         options: nil) as! [SCNHitTestResult]
+                                         options: nil) as [SCNHitTestResult]
             
             for hit in hits {
-                println("Found a node: \(hit.node)")
+                print("Found a node: \(hit.node)")
             }
             // END hit_test
         
@@ -314,7 +319,7 @@ class ViewController: UIViewController {
             
                 // Get the first material, if one exists
                 if let theMaterial =
-                    hit.node.geometry?.materials?[0] as? SCNMaterial {
+                    hit.node.geometry?.materials[0] {
                     // Animate from black to yellow
                     let highlightAnimation =
                         CABasicAnimation(keyPath: "contents")

@@ -100,7 +100,7 @@ class Critter: SKSpriteNode {
 
     var target : Critter? = nil
     
-    override init(texture: SKTexture!, color: UIColor!, size: CGSize) {
+    override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
     }
     

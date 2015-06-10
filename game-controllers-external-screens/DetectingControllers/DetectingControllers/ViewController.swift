@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
 // BEGIN list_controllers
-for controller in GCController.controllers() as! [GCController] {
+for controller in GCController.controllers() as [GCController] {
     NSLog("Found a controller: \(controller)")
 }
 // END list_controllers
@@ -79,27 +79,27 @@ if controller.attachedToDevice {
         
         // Turn on the first light on the controller
 // BEGIN playerindex
-controller.playerIndex = 0
+controller.playerIndex = GCControllerPlayerIndex.Index1
 // END playerindex
         
         // Getting info from the controller
 // BEGIN button_values
 // Pressed (true/false)
-let isButtonAPressed = controller.gamepad.buttonA.pressed
+let isButtonAPressed = controller.gamepad!.buttonA.pressed
         
 // Pressed amount (0.0 .. 1.0)
-let buttonAPressAmount = controller.gamepad.buttonA.value
+let buttonAPressAmount = controller.gamepad!.buttonA.value
 // END button_values
         
 // BEGIN axis_values
-let horizontalAxis = controller.gamepad.dpad.xAxis
+let horizontalAxis = controller.gamepad!.dpad.xAxis
         
 // Alternatively, just ask if the left button is pressed
-let isLeftDirectionPressed = controller.gamepad.dpad.left.pressed
+let isLeftDirectionPressed = controller.gamepad!.dpad.left.pressed
 // END axis_values
         
 // BEGIN valuechanged
-controller.gamepad.buttonA.valueChangedHandler
+controller.gamepad!.buttonA.valueChangedHandler
     = { (input: GCControllerButtonInput!, value:Float, pressed:Bool) in
                 
         NSLog("Button A pressed: \(pressed)")

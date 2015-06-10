@@ -18,7 +18,11 @@ class ViewController: UIViewController {
         
         let url = NSBundle.mainBundle().URLForResource("Beacon_Combat_High", withExtension:"m4a")
         
-        audioPlayer = AVAudioPlayer(contentsOfURL:url, error:nil)
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOfURL:url!)
+        } catch _ {
+            audioPlayer = nil
+        }
         
         audioPlayer?.numberOfLoops = -1
         audioPlayer?.volume = 1.0
@@ -45,9 +49,9 @@ func fadePlayer(player: AVAudioPlayer,
     overTime time : Float) {
         
         // Update the volume every 1/100 of a second
-        var fadeSteps : Int = Int(time) * 100
+        let fadeSteps : Int = Int(time) * 100
         // Work out how much time each step will take
-        var timePerStep : Float = 1 / 100.0
+        let timePerStep : Float = 1 / 100.0
         
         self.audioPlayer?.volume = startVolume;
             

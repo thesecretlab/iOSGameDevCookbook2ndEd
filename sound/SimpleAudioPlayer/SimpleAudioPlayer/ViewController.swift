@@ -25,18 +25,20 @@ let soundFileURL = NSBundle.mainBundle().URLForResource("TestSound",
     withExtension:"wav")
 // END resource
 // BEGIN error
-var error : NSError? = nil
-// END error
-        
 // BEGIN create
-audioPlayer = AVAudioPlayer(contentsOfURL: soundFileURL, error: &error)
-// END create
-        
-// BEGIN check_error
-if (error != nil) {
-    println("Failed to load the sound: \(error)")
+do {
+    audioPlayer = try AVAudioPlayer(contentsOfURL: soundFileURL!)
+} catch var error as NSError {
+    // BEGIN check_error
+    print("Failed to load the sound: \(error)")
+    audioPlayer = nil
+    // END check_error
+
 }
-// END check_error
+// END create
+// END error
+
+        
         
 audioPlayer?.prepareToPlay()
 // END creating

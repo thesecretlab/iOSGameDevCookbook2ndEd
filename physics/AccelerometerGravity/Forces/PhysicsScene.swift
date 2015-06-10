@@ -24,14 +24,15 @@ let motionManager = CMMotionManager()
 // BEGIN motionmanager_update
 motionManager.startDeviceMotionUpdatesToQueue(
     NSOperationQueue.mainQueue(), withHandler: { (motion, error) -> Void in
+        
     if error != nil {
-        println("Error getting motion data: \(error)")
+        print("Error getting motion data: \(error)")
     } else {
                 
         let gravityMagnitude = 9.91
         let gravityVector = CGVector(
-            dx: motion.gravity.x * gravityMagnitude,
-            dy: motion.gravity.y * gravityMagnitude)
+            dx: motion!.gravity.x * gravityMagnitude,
+            dy: motion!.gravity.y * gravityMagnitude)
                 
         self.physicsWorld.gravity = gravityVector
     }

@@ -34,25 +34,25 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         self.locationErrorLabel.hidden = true
     }
     
-    func locationManager(manager: CLLocationManager!,
-        didUpdateLocations locations: [AnyObject]!) {
+    func locationManager(manager: CLLocationManager,
+        didUpdateLocations locations: [AnyObject]) {
         self.locationErrorLabel.hidden = true
         
         // BEGIN last
-        var location = locations.last as! CLLocation
+        let location = locations.last as! CLLocation
         // END last
         
         // BEGIN lat_lon
-        var latitude = location.coordinate.latitude
-        var longitude = location.coordinate.longitude
+        let latitude = location.coordinate.latitude
+        let longitude = location.coordinate.longitude
         // END lat_lon
         
         self.latitudeLabel.text = String(format: "Latitude: %.4f", latitude)
         self.longitudeLabel.text = String(format: "Longitude: %.4f", longitude)
     }
     
-    func locationManager(manager: CLLocationManager!,
-        didFailWithError error: NSError!) {
+    func locationManager(manager: CLLocationManager,
+        didFailWithError error: NSError) {
         self.locationErrorLabel.hidden = false
     }
 

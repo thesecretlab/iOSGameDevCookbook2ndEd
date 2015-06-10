@@ -43,11 +43,11 @@ class PhysicsScene: SKScene {
     }
     
 // BEGIN dragging
-override func touchesBegan(touches: Set<NSObject>,
-    withEvent event: UIEvent) {
+override func touchesBegan(touches: Set<UITouch>,
+    withEvent event: UIEvent?) {
         
     // We only care about one touch at a time
-    if let touch = touches.first as? UITouch {
+    if let touch = touches.first {
             
         // Work out what node got touched
         let touchPosition = touch.locationInNode(self)
@@ -70,8 +70,8 @@ override func touchesBegan(touches: Set<NSObject>,
             
         // Link this new node to the object that got touched
         let newDragJoint = SKPhysicsJointPin.jointWithBodyA(
-            touchedNode.physicsBody,
-            bodyB:newDragNode.physicsBody,
+            touchedNode.physicsBody!,
+            bodyB:newDragNode.physicsBody!,
             anchor:touchPosition)
             
         self.physicsWorld.addJoint(newDragJoint)
@@ -83,10 +83,10 @@ override func touchesBegan(touches: Set<NSObject>,
     }
 }
     
-override func touchesMoved(touches: Set<NSObject>,
-    withEvent event: UIEvent) {
+override func touchesMoved(touches: Set<UITouch>,
+    withEvent event: UIEvent?) {
             
-    if let touch = touches.first as? UITouch {
+    if let touch = touches.first {
         // When the touch moves, move the static drag node.
         // The joint will drag the connected
         // object with it.
@@ -96,14 +96,14 @@ override func touchesMoved(touches: Set<NSObject>,
     }
 }
     
-override func touchesEnded(touches: Set<NSObject>,
-    withEvent event: UIEvent) {
+override func touchesEnded(touches: Set<UITouch>,
+    withEvent event: UIEvent?) {
             
     stopDragging()
 }
     
-override func touchesCancelled(touches: Set<NSObject>,
-    withEvent event: UIEvent) {
+override func touchesCancelled(touches: Set<UITouch>?,
+    withEvent event: UIEvent?) {
             
     stopDragging()
 }

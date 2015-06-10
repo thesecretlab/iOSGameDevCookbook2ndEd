@@ -156,6 +156,7 @@
 		68C350B01A689FB10071E283 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				68C350D91A689FB20071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C350DA1A689FB20071E283 /* Build configuration list for PBXNativeTarget "TapGesturesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				68C350DC1A689FB20071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

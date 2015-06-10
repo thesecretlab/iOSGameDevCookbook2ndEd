@@ -27,31 +27,32 @@ class ViewController: UIViewController, GKGameCenterControllerDelegate, UINaviga
     
 // BEGIN authenticating_player
 func authenticatePlayer() {
-    if let localPlayer = GKLocalPlayer.localPlayer() {
-        // Assigning a block to the localPlayer's
-        // authenticateHandler kicks off the process
-        // of authenticating the user with Game Center.
-        localPlayer.authenticateHandler = {
-            (viewController, error) in
+    let localPlayer = GKLocalPlayer.localPlayer()
+    
+    // Assigning a block to the localPlayer's
+    // authenticateHandler kicks off the process
+    // of authenticating the user with Game Center.
+    localPlayer.authenticateHandler = {
+        (viewController, error) in
+            
+        if viewController != nil {
+            // We need to present a view controller
+            // to finish the authentication process
+            self.presentViewController(viewController!,
+                animated: true, completion: nil)
                 
-            if viewController != nil {
-                // We need to present a view controller
-                // to finish the authentication process
-                self.presentViewController(viewController,
-                    animated: true, completion: nil)
-                    
-            } else if localPlayer.authenticated {
-                // We're authenticated, and can now use Game Center features
-                println("Authenticated!")
-                self.playerAuthenticated()
-                    
-            } else if let theError = error {
-                // We're not authenticated.
-                println("Error! \(error)")
-                self.playerFailedToAuthenticate(theError)
-            }
+        } else if localPlayer.authenticated {
+            // We're authenticated, and can now use Game Center features
+            print("Authenticated!")
+            self.playerAuthenticated()
+                
+        } else if let theError = error {
+            // We're not authenticated.
+            print("Error! \(error)")
+            self.playerFailedToAuthenticate(theError)
         }
     }
+
 }
 // END authenticating_player
     
@@ -64,7 +65,7 @@ player.loadPhotoForSize(GKPhotoSizeSmall, withCompletionHandler: {
     (image, error) -> Void in
             
     if let theError = error {
-        println("Can't load image: \(error)")
+        print("Can't load image: \(error)")
     } else if let theImage = image {
         self.imageView.image = image
     }
@@ -75,12 +76,12 @@ player.loadPhotoForSize(GKPhotoSizeSmall, withCompletionHandler: {
 GKLocalPlayer.localPlayer().loadFriendPlayersWithCompletionHandler {
     (friends, error) -> Void in
     // Log out info about each friend
-    for friend in friends as! [GKPlayer] {
-        println("Friend: \(friend.displayName)")
+    for friend in friends! {
+        print("Friend: \(friend.displayName)")
     }
     
     // Store friends in a property
-    self.friends = friends as! [GKPlayer]
+    self.friends = friends!
 
 }
 // END loading_friends
@@ -93,7 +94,7 @@ GKLocalPlayer.localPlayer().loadFriendPlayersWithCompletionHandler {
     func getScore() -> Int {
         // Attempt to convert the text field to an Int, but
         // fall back to the value 1000 if we can't
-        return scoreTextField.text.toInt() ?? 1000
+        return Int(scoreTextField.text ?? "") ?? 1000
     }
 
     @IBAction func logScore(sender: AnyObject) {
@@ -109,9 +110,9 @@ score.value = Int64(scoreValue)
         
 GKScore.reportScores([score], withCompletionHandler: { (error) -> Void in
     if error != nil {
-        println("Failed to report score: \(error)")
+        print("Failed to report score: \(error)")
     } else {
-        println("Successfully logged score!")
+        print("Successfully logged score!")
     }
 })
 // END reporting_score
@@ -140,7 +141,7 @@ let challengeComposeViewController =
             (viewController, didChallenge, playersChallenged) -> Void in
             
             if didChallenge {
-                println("\(playersChallenged.count) players challenged")
+                print("\(playersChallenged!.count) players challenged")
             }
             
             self.dismissViewControllerAnimated(true, completion: nil)
@@ -162,22 +163,22 @@ GKLeaderboard.loadLeaderboardsWithCompletionHandler {
             
     // Log an error if we can't load leaderboards
     if error != nil {
-        println("Can't load leaderboards: \(error)")
+        print("Can't load leaderboards: \(error)")
         return
     }
             
     // For each leaderboard, load scores for it
-    for leaderboard in leaderboards as! [GKLeaderboard] {
+    for leaderboard in leaderboards!  {
                 
         leaderboard.loadScoresWithCompletionHandler {
             (scores, error) -> Void in
             if error != nil {
-                println("Can't load scores for leaderboard \(leaderboard.title): \(error)")
+                print("Can't load scores for leaderboard \(leaderboard.title): \(error)")
             } else {
                 // Log these scores to the console
-                println("Leaderboard \"\(leaderboard.title)\":")
-                for score in scores as! [GKScore] {
-                    println("\(score.player.alias) \(score.player.playerID) - \(score.value)")
+                print("Leaderboard \"\(leaderboard.title)\":")
+                for score in scores!  {
+                    print("\(score.player.alias) \(score.player.playerID) - \(score.value)")
                 }
             }
         }
@@ -198,7 +199,7 @@ self.presentViewController(gameCenterViewController,
     
 // BEGIN dismiss_game_center
 func gameCenterViewControllerDidFinish(
-    gameCenterViewController: GKGameCenterViewController!) {
+    gameCenterViewController: GKGameCenterViewController) {
     self.dismissViewControllerAnimated(true, completion: nil)
 }
 // END dismiss_game_center
@@ -214,8 +215,9 @@ matchRequest.minPlayers = 2
 // BEGIN matchmaker_view_controller
 let matchmakerViewController =
         GKMatchmakerViewController(matchRequest: matchRequest)
-matchmakerViewController.matchmakerDelegate = self
-self.presentViewController(matchmakerViewController,
+        
+matchmakerViewController!.matchmakerDelegate = self
+self.presentViewController(matchmakerViewController!,
     animated: true, completion: nil)
 // END matchmaker_view_controller
         
@@ -279,21 +281,21 @@ object.position = interpolatePoint(origin,
 
 extension ViewController : GKMatchmakerViewControllerDelegate {
 // BEGIN match_maker_delegate
-func matchmakerViewController(viewController: GKMatchmakerViewController!,
-    didFindMatch match: GKMatch!) {
+func matchmakerViewController(viewController: GKMatchmakerViewController,
+    didFindMatch match: GKMatch) {
     // We have a match, and can send data to other players using the GKMatch
     // object
     self.dismissViewControllerAnimated(true, completion: nil)
 }
     
-func matchmakerViewController(viewController: GKMatchmakerViewController!,
-    didFailWithError error: NSError!) {
+func matchmakerViewController(viewController: GKMatchmakerViewController,
+    didFailWithError error: NSError) {
     // We failed to get a match
     self.dismissViewControllerAnimated(true, completion: nil)
 }
     
 func matchmakerViewControllerWasCancelled(
-    viewController: GKMatchmakerViewController!) {
+    viewController: GKMatchmakerViewController) {
     // The user cancelled the match-maker
     self.dismissViewControllerAnimated(true, completion: nil)
 }
@@ -321,7 +323,7 @@ struct DataBlock {
 
 extension ViewController : GKMatchDelegate {
 // BEGIN match_player_disconnected
-func match(match: GKMatch!, player: GKPlayer!,
+func match(match: GKMatch, player: GKPlayer,
     didChangeConnectionState state: GKPlayerConnectionState) {
     if state == GKPlayerConnectionState.StateDisconnected {
         // The player has disconnected; update the game's UI
@@ -330,8 +332,8 @@ func match(match: GKMatch!, player: GKPlayer!,
 // END match_player_disconnected
     
 // BEGIN match_should_reinvite
-func match(match: GKMatch!,
-    shouldReinviteDisconnectedPlayer player: GKPlayer!) -> Bool {
+func match(match: GKMatch,
+    shouldReinviteDisconnectedPlayer player: GKPlayer) -> Bool {
     return true
 }
 // END match_should_reinvite
@@ -356,11 +358,15 @@ let dataToSend = NSData(bytes: &data, length: sizeof(DataBlock))
 // Send the data
 // match is a GKMatch, which you can get using the match-maker
 var error : NSError?
-match.sendDataToAllPlayers(dataToSend,
-    withDataMode: GKMatchSendDataMode.Unreliable, error: &error)
+        do {
+            try match.sendDataToAllPlayers(dataToSend,
+                withDataMode: GKMatchSendDataMode.Unreliable)
+        } catch var error1 as NSError {
+            error = error1
+        }
         
 if error != nil {
-    println("Error sending data: \(error)")
+    print("Error sending data: \(error)")
 }
 // END sending_data
         
@@ -407,7 +413,7 @@ let saveData : NSData = getSaveData()
 localPlayer.saveGameData(getSaveData(), withName: "My Save") {
     (savedGame, error) -> Void in
     if error != nil {
-        println("Error saving: \(error)")
+        print("Error saving: \(error)")
     }
 }
 // END saving_game
@@ -416,14 +422,14 @@ localPlayer.saveGameData(getSaveData(), withName: "My Save") {
 localPlayer.fetchSavedGamesWithCompletionHandler {
     (savedGames, error) -> Void in
     if error != nil {
-        println("Failed to find games: \(error)")
+        print("Failed to find games: \(error)")
         return
     }
             
-    println("Found \(savedGames).count games")
-    for save in savedGames as! [GKSavedGame] {
+    print("Found \(savedGames).count games")
+    for save in savedGames! {
         // List each game
-        println("- \(save.name): (from \(save.deviceName), modified \(save.modificationDate))")
+        print("- \(save.name): (from \(save.deviceName), modified \(save.modificationDate))")
                 
         // Call save.loadDataWithCompletionHandler to get the data itself
     }
@@ -434,7 +440,7 @@ localPlayer.fetchSavedGamesWithCompletionHandler {
 // BEGIN delete_save
 localPlayer.deleteSavedGamesWithName("My Save") { (error) -> Void in
     if error != nil {
-        println("Error removing save: \(error)")
+        print("Error removing save: \(error)")
     }
 }
 // END delete_save
@@ -459,19 +465,19 @@ self.presentViewController(matchmaker, animated: true, completion: nil)
     
 // BEGIN turnbased_delegate_methods
 func turnBasedMatchmakerViewController(
-    viewController: GKTurnBasedMatchmakerViewController!, didFailWithError error: NSError!) {
+    viewController: GKTurnBasedMatchmakerViewController, didFailWithError error: NSError) {
     // We failed to find a match
     self.dismissViewControllerAnimated(true, completion: nil)
 }
     
 func turnBasedMatchmakerViewController(
-    viewController: GKTurnBasedMatchmakerViewController!, didFindMatch match: GKTurnBasedMatch!) {
+    viewController: GKTurnBasedMatchmakerViewController, didFindMatch match: GKTurnBasedMatch) {
     // We now have a match
     self.dismissViewControllerAnimated(true, completion: nil)
         
     // The match has now begun.
         
-    if match.currentParticipant.player.playerID ==
+    if match.currentParticipant!.player!.playerID ==
         GKLocalPlayer.localPlayer().playerID {
         // We are the current player.
     } else {
@@ -481,24 +487,27 @@ func turnBasedMatchmakerViewController(
 }
     
 func turnBasedMatchmakerViewControllerWasCancelled(
-    viewController: GKTurnBasedMatchmakerViewController!) {
+    viewController: GKTurnBasedMatchmakerViewController) {
     // The user closed the matchmaker without creating a match
     self.dismissViewControllerAnimated(true, completion: nil)
 }
     
 func turnBasedMatchmakerViewController(
-    viewController: GKTurnBasedMatchmakerViewController!, playerQuitForMatch match: GKTurnBasedMatch!) {
+    viewController: GKTurnBasedMatchmakerViewController, playerQuitForMatch match: GKTurnBasedMatch) {
     // We're quitting this game.
         
     self.dismissViewControllerAnimated(true, completion: nil)
         
-    let matchData = match.matchData
+    let matchData = match.matchData!
+        
+    let nextPlayers : [GKTurnBasedParticipant] = getNextPlayers()
+        
     // Do something with the match data to reflect the fact that we're
     // quitting (e.g., give all of our buildings to someone else,
     // or remove them from the game)
         
     match.participantQuitInTurnWithOutcome(GKTurnBasedMatchOutcome.Quit,
-        nextParticipants: nil, turnTimeout: 2000.0, matchData: matchData) { (error) in
+        nextParticipants: nextPlayers, turnTimeout: NSTimeInterval(2000), matchData: matchData) { (error) in
         // We've now finished telling Game Center that we've quit
     }
 }
@@ -506,20 +515,24 @@ func turnBasedMatchmakerViewController(
     
 }
 
+func getNextPlayers() -> [GKTurnBasedParticipant] {
+    return []
+}
+
 extension ViewController : GKLocalPlayerListener {
 // BEGIN player_delegate_methods
-func player(player: GKPlayer!,
-    receivedTurnEventForMatch match: GKTurnBasedMatch!, didBecomeActive: Bool) {
+func player(player: GKPlayer,
+    receivedTurnEventForMatch match: GKTurnBasedMatch, didBecomeActive: Bool) {
     // The turn-based match has updated. We may now be the current player.
 }
     
-func player(player: GKPlayer!, matchEnded match: GKTurnBasedMatch!) {
+func player(player: GKPlayer, matchEnded match: GKTurnBasedMatch) {
     // The match has now ended.
         
     // List out the outcome for each player (if they came first, second,
     // third, etc, or quit)
-    for participant in match.participants as! [GKTurnBasedParticipant] {
-        println("\(participant.player.alias)'s outcome: \(participant.matchOutcome)")
+    for participant in match.participants! {
+        print("\(participant.player!.alias)'s outcome: \(participant.matchOutcome)")
     }
         
 }
@@ -564,7 +577,7 @@ func updateTurn(match: GKTurnBasedMatch, gameData: NSData) {
     func findMatches() {
 // BEGIN find_matches
 GKTurnBasedMatch.loadMatchesWithCompletionHandler { (matches, error) -> Void in
-    for match in matches as! [GKTurnBasedMatch] {
+    for match in matches! {
         // Show information about this match
     }
 }

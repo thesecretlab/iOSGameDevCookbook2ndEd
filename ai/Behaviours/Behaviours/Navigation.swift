@@ -120,7 +120,7 @@ struct NavigationGrid {
             // then sorting it based on the f-score of each
             // item in the array, then taking the first item
             // in the resulting array
-            let currentNode = Array(openNodes).sorted{
+            let currentNode = Array(openNodes).sort {
                 (first, second) -> Bool in
                 return fScores[first] < fScores[second]
             }.first!

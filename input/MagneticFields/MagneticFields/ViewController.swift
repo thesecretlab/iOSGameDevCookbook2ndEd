@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 motionManager.startMagnetometerUpdatesToQueue(NSOperationQueue.mainQueue()) {
     (magnetometerData, error) -> Void in
             
-    let magneticField = magnetometerData.magneticField
+    let magneticField = magnetometerData!.magneticField
             
     let xValue = String(format:"%.2f", magneticField.x)
     let yValue = String(format:"%.2f", magneticField.y)

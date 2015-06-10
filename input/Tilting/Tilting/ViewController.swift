@@ -24,13 +24,13 @@ class ViewController: UIViewController {
         motionManager.startDeviceMotionUpdatesToQueue(mainQueue) {
             (motion, error) in
             
-            var roll = motion.attitude.roll
+            var roll = motion!.attitude.roll
             var rollDegrees = roll * 180 / M_PI
             
-            var yaw = motion.attitude.yaw
+            var yaw = motion!.attitude.yaw
             var yawDegrees = yaw * 180 / M_PI
             
-            var pitch = motion.attitude.pitch
+            var pitch = motion!.attitude.pitch
             var pitchDegrees = pitch * 180 / M_PI
             
             self.rollLabel.text = String(format:"Roll: %.2f°", rollDegrees)

@@ -159,6 +159,7 @@
 		688C6D4A1A66438400B9D74B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				688C6D731A66438500B9D74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		688C6D741A66438500B9D74B /* Build configuration list for PBXNativeTarget "OverlayingMenusTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				688C6D761A66438500B9D74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

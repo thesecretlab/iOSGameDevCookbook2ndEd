@@ -10,7 +10,7 @@ import UIKit
 
 // This is a dummy object, used in the example below.
 class MovingObject {
-    func move(# distance: Double) {
+    func move(distance  distance: Double) {
         
     }
 }

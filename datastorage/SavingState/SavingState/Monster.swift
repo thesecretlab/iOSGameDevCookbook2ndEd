@@ -21,7 +21,7 @@ class Monster: NSObject, NSCoding {
     }
 
     // Initializer used when loading the object from data
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
     
         // BEGIN encode_int
         self.hitPoints = aDecoder.decodeIntegerForKey("hitPoints")

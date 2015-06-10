@@ -29,8 +29,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
 // BEGIN speed
-func locationManager(manager: CLLocationManager!,
-    didUpdateLocations locations: [AnyObject]!) {
+func locationManager(manager: CLLocationManager,
+    didUpdateLocations locations: [AnyObject]) {
         
     let lastLocation = locations.last as! CLLocation
         

@@ -74,9 +74,9 @@ myScene.addChild(textNode)
 // END textnode
         
 // BEGIN list_fonts
-for fontFamilyName in UIFont.familyNames() as! [String] {
-    for fontName in UIFont.fontNamesForFamilyName(fontFamilyName) as! [String] {
-        println("Available font: \(fontName)")
+for fontFamilyName in UIFont.familyNames() as [String] {
+    for fontName in UIFont.fontNamesForFamilyName(fontFamilyName) as [String] {
+        print("Available font: \(fontName)")
     }
 }
 // END list_fonts
@@ -95,7 +95,7 @@ let fadeOut = SKAction.fadeOutWithDuration(0.5)
         
 // Run a block of code
 let runBlock = SKAction.runBlock { () -> Void in
-    println("Hello!")
+    print("Hello!")
 }
         
 // Remove the node
@@ -137,7 +137,7 @@ let groupedSequences = SKAction.group([sequence1, sequence2])
 let action = SKAction.fadeOutWithDuration(1.0)
             
 node.runAction(action, completion: { () -> Void in
-    println("Action's done!")
+    print("Action's done!")
 })
 // END completion_block
             
@@ -193,7 +193,7 @@ shape.blendMode = SKBlendMode.Add
 let effect = SKEffectNode()
         
 let filter = CIFilter(name: "CIGaussianBlur")
-filter.setValue(20.0, forKey: "inputRadius")
+filter!.setValue(20.0, forKey: "inputRadius")
         
 effect.filter = filter;
         
@@ -226,7 +226,7 @@ customShape.closePath()
 
 let fireNode = SKEmitterNode(fileNamed: "Fire.sks")
         
-myScene.addChild(fireNode)
+myScene.addChild(fireNode!)
 // END particle
         
         let cameraNode = SKNode()
@@ -249,7 +249,7 @@ myScene.addChild(noiseSprite)
 let atlas = SKTextureAtlas(named: "Animation")
         
 // Get the list of texture names, and sort them
-let textureNames = (atlas.textureNames as! [String]).sorted {
+let textureNames = (atlas.textureNames as [String]).sort {
     (first, second) -> Bool in
     return first < second
 }
@@ -331,7 +331,7 @@ func shakeNode(node: SKNode) {
 // END shake_node
 
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         // Transition to a new scene on touch
         let newScene = OtherScene()

@@ -47,12 +47,16 @@ class AssetLoader: NSObject {
                 var result : LoadingResult? = nil
                 
                 // If we got it, result contains the data
-                if let data = NSData(contentsOfURL: url,
-                    options: NSDataReadingOptions.allZeros, error: &error) {
+                do {
+                    let data = try NSData(contentsOfURL: url,
+                        options: NSDataReadingOptions())
                     result = (url: url, data: data, error:nil)
-                } else {
+                } catch var error1 as NSError {
+                    error = error1
                     // Else the result contains an error
                     result = (url: url, data: nil, error:error)
+                } catch {
+                    fatalError()
                 }
                 
                 // On the main queue (to prevent conflicts), 

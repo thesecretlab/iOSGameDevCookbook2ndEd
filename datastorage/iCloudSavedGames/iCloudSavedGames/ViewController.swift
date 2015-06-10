@@ -58,7 +58,12 @@ metadataQuery.stopQuery()
 
     
     func saveGameWasUpdated(url : NSURL) {
-        let attributes = NSFileManager.defaultManager().attributesOfItemAtPath(url.path!, error: nil)
+        let attributes: [NSObject: AnyObject]?
+        do {
+            attributes = try NSFileManager.defaultManager().attributesOfItemAtPath(url.path!)
+        } catch _ {
+            attributes = nil
+        }
 
         let date = attributes?[NSFileModificationDate] as! NSDate
         self.lastSaveGameDateLabel.text = date.description
@@ -68,15 +73,18 @@ metadataQuery.stopQuery()
 func resolveConflictsForItemAtURL(url : NSURL) {
         
     // 'The version I have is correct; all others are wrong.'
-    for conflictVersion in NSFileVersion.unresolvedConflictVersionsOfItemAtURL(url)
-        as! [NSFileVersion] {
+    for conflictVersion in NSFileVersion.unresolvedConflictVersionsOfItemAtURL(url)!
+         {
         // Mark these other versions as resolved; iCloud will tell other
         // devices to update their local copies
         conflictVersion.resolved = true
     }
         
-    // Remove our conflicted copies
-    NSFileVersion.removeOtherVersionsOfItemAtURL(url, error: nil)
+    do {
+        // Remove our conflicted copies
+        try NSFileVersion.removeOtherVersionsOfItemAtURL(url)
+    } catch _ {
+    }
         
 }
 // END resolve_conflicts
@@ -107,16 +115,16 @@ func searchComplete() {
             // The file is either not downloaded at all, or is out of date
             // We need to download the file from iCloud; when it finishes
             // downloading, NSMetadataQuery will call this method again
-            var error : NSError? = nil
-                
-            // Ask iCloud to begin downloading.
-            NSFileManager.defaultManager()
-                .startDownloadingUbiquitousItemAtURL(url, error:&error)
-                
-            // Check if starting the download didn't work:
-            if error != nil {
-                println("Problem starting download of \(url): \(error)")
+            
+            do {
+                // Ask iCloud to begin downloading.
+                try NSFileManager.defaultManager()
+                    .startDownloadingUbiquitousItemAtURL(url)
+            } catch var error as NSError {
+                // Starting the download didn't work
+                print("Problem starting download of \(url): \(error)")
             }
+                
         }
     }
 }
@@ -128,7 +136,7 @@ func searchComplete() {
     }
     
     func saveGameLocally(data : NSData) {
-        println("Saving game locally.")
+        print("Saving game locally.")
     }
     
     @IBAction func saveGame() {
@@ -161,12 +169,17 @@ NSOperationQueue().addOperationWithBlock { () -> Void in
                 
         var error : NSError? = nil
 
-        saveData.writeToURL(fileURL,
-            options: NSDataWritingOptions.DataWritingAtomic,
-            error: &error)
+        do {
+            try saveData.writeToURL(fileURL,
+                options: NSDataWritingOptions.DataWritingAtomic)
+        } catch var error1 as NSError {
+            error = error1
+        } catch {
+            fatalError()
+        }
                 
         if error != nil {
-            println("Error saving file to iCloud!")
+            print("Error saving file to iCloud!")
         }
     }
 }

@@ -197,6 +197,7 @@
 		685502131A81F8E7004988B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -457,6 +458,7 @@
 				6855023C1A81F8E7004988B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6855023D1A81F8E7004988B1 /* Build configuration list for PBXNativeTarget "AssetManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +467,7 @@
 				6855023F1A81F8E7004988B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

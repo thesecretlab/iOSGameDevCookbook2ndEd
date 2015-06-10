@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     @IBAction func tapped(tap: UITapGestureRecognizer) {
         if tap.state == UIGestureRecognizerState.Ended {
-            println("Tapped!")
+            print("Tapped!")
         }
     }
     

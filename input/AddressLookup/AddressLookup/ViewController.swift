@@ -27,15 +27,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
 // BEGIN lookup
-func locationManager(manager: CLLocationManager!,
-    didUpdateLocations locations: [AnyObject]!) {
+func locationManager(manager: CLLocationManager,
+    didUpdateLocations locations: [AnyObject]) {
     let location = locations.last as! CLLocation
         
     geocoder.reverseGeocodeLocation(location, completionHandler: {
         (placemarks, error) -> Void in
         let addressString =
-            (placemarks.first as! CLPlacemark).name
-            
+            placemarks!.first?.name
+        
         self.labelTextView.text = addressString
             
     })

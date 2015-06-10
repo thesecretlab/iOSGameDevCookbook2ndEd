@@ -156,6 +156,7 @@
 		68C350821A689DA80071E283 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				68C350AB1A689DA90071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C350AC1A689DA90071E283 /* Build configuration list for PBXNativeTarget "DetectingTouchesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				68C350AE1A689DA90071E283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

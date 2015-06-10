@@ -162,6 +162,7 @@
 		6887975C1A8347A800C19F13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -413,6 +414,7 @@
 				688797851A8347A900C19F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		688797861A8347A900C19F13 /* Build configuration list for PBXNativeTarget "ParallaxScrollingTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +423,7 @@
 				688797881A8347A900C19F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

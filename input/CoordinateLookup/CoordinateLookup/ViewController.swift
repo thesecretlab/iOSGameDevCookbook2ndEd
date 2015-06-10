@@ -32,7 +32,7 @@ geocoder.geocodeAddressString(addressString) { (placemarks, error) -> Void in
         self.latitudeLabel.text = "Error!"
         self.longitudeLabel.text = "Error!"
     } else {
-        let placemark = placemarks.last as! CLPlacemark
+        let placemark : CLPlacemark = placemarks!.last!
                 
         let latitude = placemark.location.coordinate.latitude
         let longitude = placemark.location.coordinate.longitude

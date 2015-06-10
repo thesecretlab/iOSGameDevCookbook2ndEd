@@ -30,7 +30,7 @@ class PhysicsScene: SKScene {
         self.addChild(walls)
     }
 
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
 
         if let node = self.childNodeWithName("Box") {
             

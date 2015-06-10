@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         // Generate a new utterance from a string
         // BEGIN utterance
-        let utterance = AVSpeechUtterance(string:self.textToSpeakField.text)
+        let utterance = AVSpeechUtterance(string:self.textToSpeakField.text!)
         // END utterance
         
         // Speak the utterance

@@ -156,6 +156,7 @@
 		683DC8DB1A661CB500A4B9F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				683DC9041A661CB600A4B9F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		683DC9051A661CB600A4B9F5 /* Build configuration list for PBXNativeTarget "AddingImagesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				683DC9071A661CB600A4B9F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

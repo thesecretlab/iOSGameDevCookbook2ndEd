@@ -32,8 +32,8 @@ class PhysicsScene: SKScene {
         self.addChild(walls)
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        for touch in touches as! Set<UITouch> {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches as Set<UITouch> {
             let point = touch.locationInNode(self)
         
             

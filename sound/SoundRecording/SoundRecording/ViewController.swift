@@ -19,16 +19,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var destinationURL = self.audioRecordingURL()
+        let destinationURL = self.audioRecordingURL()
         
 // BEGIN setup
 // destinationURL is the location of where we want to store our recording
-var error : NSError?
-        
-audioRecorder = AVAudioRecorder(URL:destinationURL, settings:nil, error:&error)
-        
-if (error != nil) {
-    println("Couldn't create a recorder: \(error)")
+do {
+    audioRecorder = try AVAudioRecorder(URL:destinationURL, settings:[:])
+} catch var error as NSError {
+    print("Couldn't create a recorder: \(error)")
+    audioRecorder = nil
 }
         
 audioRecorder?.prepareToRecord()
@@ -40,7 +39,7 @@ audioRecorder?.prepareToRecord()
 // BEGIN documents_url
 let documentsURL = NSFileManager.defaultManager()
     .URLsForDirectory(NSSearchPathDirectory.DocumentDirectory,
-        inDomains:NSSearchPathDomainMask.UserDomainMask).last as! NSURL
+        inDomains:NSSearchPathDomainMask.UserDomainMask).last!
 // END documents_url
         
 // BEGIN filename
@@ -67,7 +66,11 @@ audioRecorder?.record()
     }
     
     @IBAction func playRecording(sender : UIButton) {
-        audioPlayer = AVAudioPlayer(contentsOfURL:self.audioRecordingURL(), error:nil)
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOfURL:self.audioRecordingURL())
+        } catch _ {
+            audioPlayer = nil
+        }
         
         audioPlayer?.play()
         

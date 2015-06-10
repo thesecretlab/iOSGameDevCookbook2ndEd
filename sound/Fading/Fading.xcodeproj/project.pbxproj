@@ -13,7 +13,6 @@
 		6810D27B1A80882B00CBD077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6810D27A1A80882B00CBD077 /* Images.xcassets */; };
 		6810D27E1A80882B00CBD077 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810D27C1A80882B00CBD077 /* LaunchScreen.xib */; };
 		6810D28A1A80882B00CBD077 /* FadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810D2891A80882B00CBD077 /* FadingTests.swift */; };
-		6810D2951A808CD200CBD077 /* Beacon_Combat_High.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6810D2941A80883C00CBD077 /* Beacon_Combat_High.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +166,7 @@
 		6810D2661A80882B00CBD077 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -205,7 +205,6 @@
 			files = (
 				6810D2791A80882B00CBD077 /* Main.storyboard in Resources */,
 				6810D27E1A80882B00CBD077 /* LaunchScreen.xib in Resources */,
-				6810D2951A808CD200CBD077 /* Beacon_Combat_High.m4a in Resources */,
 				6810D27B1A80882B00CBD077 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +416,7 @@
 				6810D28F1A80882B00CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6810D2901A80882B00CBD077 /* Build configuration list for PBXNativeTarget "FadingTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +425,7 @@
 				6810D2921A80882B00CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

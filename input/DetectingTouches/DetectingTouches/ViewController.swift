@@ -21,34 +21,34 @@ class ViewController: UIViewController {
     }
     
     // BEGIN touch_funcs
-    override func touchesBegan(touches: Set<NSObject>,
-        withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>,
+        withEvent event: UIEvent?) {
             
-        for touch in touches as! Set<UITouch> {
+        for touch in touches {
             NSLog("A touch began at \(touch.locationInView(self.view))")
         }
     }
     
-    override func touchesMoved(touches: Set<NSObject>,
-        withEvent event: UIEvent) {
+    override func touchesMoved(touches: Set<UITouch>,
+        withEvent event: UIEvent?) {
         
-        for touch in touches as! Set<UITouch> {
+        for touch in touches {
             NSLog("A touch moved at \(touch.locationInView(self.view))")
         }
     }
     
-    override func touchesEnded(touches: Set<NSObject>,
-        withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<UITouch>,
+        withEvent event: UIEvent?) {
             
-        for touch in touches as! Set<UITouch> {
+        for touch in touches {
             NSLog("A touch ended at \(touch.locationInView(self.view))")
         }
     }
     
-    override func touchesCancelled(touches: Set<NSObject>,
-        withEvent event: UIEvent) {
+    override func touchesCancelled(touches: Set<UITouch>?,
+        withEvent event: UIEvent?) {
             
-        for touch in touches as! Set<UITouch> {
+        for touch in touches! {
             NSLog("A touch was cancelled at \(touch.locationInView(self.view))")
         }
     }

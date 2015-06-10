@@ -13,7 +13,6 @@
 		6810D1E51A8074BF00CBD077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6810D1E41A8074BF00CBD077 /* Images.xcassets */; };
 		6810D1E81A8074BF00CBD077 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810D1E61A8074BF00CBD077 /* LaunchScreen.xib */; };
 		6810D1F41A8074BF00CBD077 /* SimpleAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810D1F31A8074BF00CBD077 /* SimpleAudioPlayerTests.swift */; };
-		6810D1FF1A80751500CBD077 /* TestSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6810D1FE1A80751500CBD077 /* TestSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +166,7 @@
 		6810D1D01A8074BF00CBD077 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -205,7 +205,6 @@
 			files = (
 				6810D1E31A8074BF00CBD077 /* Main.storyboard in Resources */,
 				6810D1E81A8074BF00CBD077 /* LaunchScreen.xib in Resources */,
-				6810D1FF1A80751500CBD077 /* TestSound.wav in Resources */,
 				6810D1E51A8074BF00CBD077 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +416,7 @@
 				6810D1F91A8074BF00CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6810D1FA1A8074BF00CBD077 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +425,7 @@
 				6810D1FC1A8074BF00CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

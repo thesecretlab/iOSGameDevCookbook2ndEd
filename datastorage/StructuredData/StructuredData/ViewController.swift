@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     func locationToSaveTo() -> NSURL {
         return (NSFileManager.defaultManager()
             .URLsForDirectory(NSSearchPathDirectory.DocumentDirectory,
-                inDomains: NSSearchPathDomainMask.UserDomainMask).last
-                as! NSURL)
+                inDomains: NSSearchPathDomainMask.UserDomainMask).last!)
             .URLByAppendingPathComponent("Data.json")
     }
 
@@ -31,13 +30,14 @@ let informationToSave = [
         
 let url : NSURL = locationToSaveTo()
         
-var error : NSError? = nil
 
-let dataToSave = NSJSONSerialization.dataWithJSONObject(informationToSave,
-    options: NSJSONWritingOptions.allZeros, error: &error)
-        
-if error != nil {
-    println("Failed to convert to JSON! \(error)")
+let dataToSave: NSData?
+do {
+    dataToSave = try NSJSONSerialization.dataWithJSONObject(informationToSave,
+        options: NSJSONWritingOptions())
+} catch var error as NSError {
+    print("Failed to convert to JSON! \(error)")
+    dataToSave = nil
 }
         
 dataToSave?.writeToURL(url, atomically: true)
@@ -49,18 +49,19 @@ if let loadedData = NSData(contentsOfURL: url) {
             
     // Attempt to convert it to a dictionary that
     // maps strings to objects:
-    var error : NSError? = nil
-    let loadedInformation =
-        NSJSONSerialization.JSONObjectWithData(
+    do {
+        let loadedInformation =
+        try NSJSONSerialization.JSONObjectWithData(
             loadedData,
-            options: NSJSONReadingOptions.allZeros,
-            error: &error) as? [String:AnyObject]
-            
-    // If we couldn't load it, or we couldn't load it
-    // as the right type, log an error
-    if loadedInformation == nil {
-        println("Error loading data! \(error)")
+            options: NSJSONReadingOptions()) as? [String:AnyObject]
+        
+    } catch var error as NSError {
+        // If we couldn't load it, or we couldn't load it
+        // as the right type, log an error
+        
+        print("Error loading data! \(error)")
     }
+   
 }
 // END loading_json
         

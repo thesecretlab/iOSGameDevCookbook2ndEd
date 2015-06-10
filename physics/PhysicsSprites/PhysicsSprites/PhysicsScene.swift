@@ -33,20 +33,20 @@ class PhysicsScene: SKScene {
 let searchRect = CGRect(x: 10, y: 10, width: 200, height: 200)
         
 self.physicsWorld.enumerateBodiesInRect(searchRect) {(body, stop) in
-    println("Found a body: \(body)")
+    print("Found a body: \(body)")
 }
 
 let searchPoint = CGPoint(x: 40, y: 100)
 
 self.physicsWorld.enumerateBodiesAtPoint(searchPoint) { (body, stop) in
-    println("Found a body: \(body)")
+    print("Found a body: \(body)")
 }
         
 let searchRayStart = CGPoint(x: 0, y: 0)
 let searchRayEnd = CGPoint(x: 320, y: 480)
 
 self.physicsWorld.enumerateBodiesAlongRayStart(searchRayStart, end: searchRayEnd) { (body, point, normal, stop) in
-    println("Found a body: \(body) (point: \(point), normal: \(normal))")
+    print("Found a body: \(body) (point: \(point), normal: \(normal))")
 }
 // END searching_for_bodies
         
@@ -100,7 +100,7 @@ self.physicsWorld.speed = 1.0
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        println("Not implemented")
+        print("Not implemented")
         return nil
     }
     

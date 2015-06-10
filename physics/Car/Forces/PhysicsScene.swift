@@ -66,10 +66,10 @@ func createCar() -> SKNode {
     let leftWheelPosition = leftWheelNode.position
     let rightWheelPosition = rightWheelNode.position
         
-    let leftPinJoint = SKPhysicsJointPin.jointWithBodyA(carNode.physicsBody,
-        bodyB:leftWheelNode.physicsBody, anchor:leftWheelPosition)
-    let rightPinJoint = SKPhysicsJointPin.jointWithBodyA(carNode.physicsBody,
-        bodyB:rightWheelNode.physicsBody, anchor:rightWheelPosition)
+    let leftPinJoint = SKPhysicsJointPin.jointWithBodyA(carNode.physicsBody!,
+        bodyB:leftWheelNode.physicsBody!, anchor:leftWheelPosition)
+    let rightPinJoint = SKPhysicsJointPin.jointWithBodyA(carNode.physicsBody!,
+        bodyB:rightWheelNode.physicsBody!, anchor:rightWheelPosition)
         
     self.physicsWorld.addJoint(leftPinJoint)
     self.physicsWorld.addJoint(rightPinJoint)

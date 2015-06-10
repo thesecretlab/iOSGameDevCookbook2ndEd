@@ -25,7 +25,7 @@ motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue()) {
     var maximumSteerAngle = 50.0
             
     // When in landscape,
-    var rotationAngle = motion.attitude.pitch * 180.0 / M_PI
+    var rotationAngle = motion!.attitude.pitch * 180.0 / M_PI
             
     // -1.0 = hard left, 1.0 = hard right
     var steering = 0.0
@@ -42,7 +42,7 @@ motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue()) {
     steering = fmin(steering, 1.0)
     steering = fmax(steering, -1.0)
             
-    println("Steering: \(steering)")
+    print("Steering: \(steering)")
 }
 // END steer
 

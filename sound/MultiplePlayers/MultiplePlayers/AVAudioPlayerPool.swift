@@ -26,19 +26,21 @@ class AVAudioPlayerPool: NSObject {
         
         // If we found one, return it
         if let playerToUse = availablePlayers.first {
-            println("Reusing player for \(url.lastPathComponent)")
+            print("Reusing player for \(url.lastPathComponent)")
             return playerToUse
         }
         
         // Didn't find one? Create a new one
         var error : NSError? = nil
-        if let newPlayer = AVAudioPlayer(contentsOfURL:url, error:&error) {
-            println("Creating new player for url \(url.lastPathComponent)")
+        do {
+            let newPlayer = try AVAudioPlayer(contentsOfURL:url)
+            print("Creating new player for url \(url.lastPathComponent)")
             players.append(newPlayer)
             return newPlayer
-        } else {
+        } catch var error1 as NSError {
+            error = error1
             // We might not be able to create one, so log and return nil
-            println("Couldn't load \(url.lastPathComponent): \(error)")
+            print("Couldn't load \(url.lastPathComponent): \(error)")
             return nil
 
         }

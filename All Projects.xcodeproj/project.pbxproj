@@ -13,6 +13,143 @@
 			buildPhases = (
 			);
 			dependencies = (
+				68D702D51B28068800BF35BD /* PBXTargetDependency */,
+				68D702D71B28068800BF35BD /* PBXTargetDependency */,
+				68D702D91B28068800BF35BD /* PBXTargetDependency */,
+				68D702DB1B28068800BF35BD /* PBXTargetDependency */,
+				68D702DD1B28068800BF35BD /* PBXTargetDependency */,
+				68D702DF1B28068800BF35BD /* PBXTargetDependency */,
+				68D702E11B28068800BF35BD /* PBXTargetDependency */,
+				68D702E31B28068800BF35BD /* PBXTargetDependency */,
+				68D702E51B28068800BF35BD /* PBXTargetDependency */,
+				68D702E71B28068800BF35BD /* PBXTargetDependency */,
+				68D702E91B28068800BF35BD /* PBXTargetDependency */,
+				68D702EB1B28068800BF35BD /* PBXTargetDependency */,
+				68D702ED1B28068800BF35BD /* PBXTargetDependency */,
+				68D702EF1B28068800BF35BD /* PBXTargetDependency */,
+				68D702F11B28068800BF35BD /* PBXTargetDependency */,
+				68D702F31B28068800BF35BD /* PBXTargetDependency */,
+				68D702F51B28068800BF35BD /* PBXTargetDependency */,
+				68D702F71B28068800BF35BD /* PBXTargetDependency */,
+				68D702F91B28068800BF35BD /* PBXTargetDependency */,
+				68D702FB1B28068800BF35BD /* PBXTargetDependency */,
+				68D702FD1B28068800BF35BD /* PBXTargetDependency */,
+				68D702FF1B28068800BF35BD /* PBXTargetDependency */,
+				68D703011B28068800BF35BD /* PBXTargetDependency */,
+				68D703031B28068800BF35BD /* PBXTargetDependency */,
+				68D703051B28068800BF35BD /* PBXTargetDependency */,
+				68D703071B28068800BF35BD /* PBXTargetDependency */,
+				68D703091B28068800BF35BD /* PBXTargetDependency */,
+				68D7030B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7030D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7030F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703111B28068800BF35BD /* PBXTargetDependency */,
+				68D703131B28068800BF35BD /* PBXTargetDependency */,
+				68D703151B28068800BF35BD /* PBXTargetDependency */,
+				68D703171B28068800BF35BD /* PBXTargetDependency */,
+				68D703191B28068800BF35BD /* PBXTargetDependency */,
+				68D7031B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7031D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7031F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703211B28068800BF35BD /* PBXTargetDependency */,
+				68D703231B28068800BF35BD /* PBXTargetDependency */,
+				68D703251B28068800BF35BD /* PBXTargetDependency */,
+				68D703271B28068800BF35BD /* PBXTargetDependency */,
+				68D703291B28068800BF35BD /* PBXTargetDependency */,
+				68D7032B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7032D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7032F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703311B28068800BF35BD /* PBXTargetDependency */,
+				68D703331B28068800BF35BD /* PBXTargetDependency */,
+				68D703351B28068800BF35BD /* PBXTargetDependency */,
+				68D703371B28068800BF35BD /* PBXTargetDependency */,
+				68D703391B28068800BF35BD /* PBXTargetDependency */,
+				68D7033B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7033D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7033F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703411B28068800BF35BD /* PBXTargetDependency */,
+				68D703431B28068800BF35BD /* PBXTargetDependency */,
+				68D703451B28068800BF35BD /* PBXTargetDependency */,
+				68D703471B28068800BF35BD /* PBXTargetDependency */,
+				68D703491B28068800BF35BD /* PBXTargetDependency */,
+				68D7034B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7034D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7034F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703511B28068800BF35BD /* PBXTargetDependency */,
+				68D703531B28068800BF35BD /* PBXTargetDependency */,
+				68D703551B28068800BF35BD /* PBXTargetDependency */,
+				68D703571B28068800BF35BD /* PBXTargetDependency */,
+				68D703591B28068800BF35BD /* PBXTargetDependency */,
+				68D7035B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7035D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7035F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703611B28068800BF35BD /* PBXTargetDependency */,
+				68D703631B28068800BF35BD /* PBXTargetDependency */,
+				68D703651B28068800BF35BD /* PBXTargetDependency */,
+				68D703671B28068800BF35BD /* PBXTargetDependency */,
+				68D703691B28068800BF35BD /* PBXTargetDependency */,
+				68D7036B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7036D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7036F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703711B28068800BF35BD /* PBXTargetDependency */,
+				68D703731B28068800BF35BD /* PBXTargetDependency */,
+				68D703751B28068800BF35BD /* PBXTargetDependency */,
+				68D703771B28068800BF35BD /* PBXTargetDependency */,
+				68D703791B28068800BF35BD /* PBXTargetDependency */,
+				68D7037B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7037D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7037F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703811B28068800BF35BD /* PBXTargetDependency */,
+				68D703831B28068800BF35BD /* PBXTargetDependency */,
+				68D703851B28068800BF35BD /* PBXTargetDependency */,
+				68D703871B28068800BF35BD /* PBXTargetDependency */,
+				68D703891B28068800BF35BD /* PBXTargetDependency */,
+				68D7038B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7038D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7038F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703911B28068800BF35BD /* PBXTargetDependency */,
+				68D703931B28068800BF35BD /* PBXTargetDependency */,
+				68D703951B28068800BF35BD /* PBXTargetDependency */,
+				68D703971B28068800BF35BD /* PBXTargetDependency */,
+				68D703991B28068800BF35BD /* PBXTargetDependency */,
+				68D7039B1B28068800BF35BD /* PBXTargetDependency */,
+				68D7039D1B28068800BF35BD /* PBXTargetDependency */,
+				68D7039F1B28068800BF35BD /* PBXTargetDependency */,
+				68D703A11B28068800BF35BD /* PBXTargetDependency */,
+				68D703A31B28068800BF35BD /* PBXTargetDependency */,
+				68D703A51B28068800BF35BD /* PBXTargetDependency */,
+				68D703A71B28068800BF35BD /* PBXTargetDependency */,
+				68D703A91B28068800BF35BD /* PBXTargetDependency */,
+				68D703AB1B28068800BF35BD /* PBXTargetDependency */,
+				68D703AD1B28068800BF35BD /* PBXTargetDependency */,
+				68D703AF1B28068800BF35BD /* PBXTargetDependency */,
+				68D703B11B28068800BF35BD /* PBXTargetDependency */,
+				68D703B31B28068800BF35BD /* PBXTargetDependency */,
+				68D703B51B28068800BF35BD /* PBXTargetDependency */,
+				68D703B71B28068800BF35BD /* PBXTargetDependency */,
+				68D703B91B28068800BF35BD /* PBXTargetDependency */,
+				68D703BB1B28068800BF35BD /* PBXTargetDependency */,
+				68D703BD1B28068800BF35BD /* PBXTargetDependency */,
+				68D703BF1B28068800BF35BD /* PBXTargetDependency */,
+				68D703C11B28068800BF35BD /* PBXTargetDependency */,
+				68D703C31B28068800BF35BD /* PBXTargetDependency */,
+				68D703C51B28068800BF35BD /* PBXTargetDependency */,
+				68D703C71B28068800BF35BD /* PBXTargetDependency */,
+				68D703C91B28068800BF35BD /* PBXTargetDependency */,
+				68D703CB1B28068800BF35BD /* PBXTargetDependency */,
+				68D703CD1B28068800BF35BD /* PBXTargetDependency */,
+				68D703CF1B28068800BF35BD /* PBXTargetDependency */,
+				68D703D11B28068800BF35BD /* PBXTargetDependency */,
+				68D703D31B28068800BF35BD /* PBXTargetDependency */,
+				68D703D51B28068800BF35BD /* PBXTargetDependency */,
+				68D703D71B28068800BF35BD /* PBXTargetDependency */,
+				68D703D91B28068800BF35BD /* PBXTargetDependency */,
+				68D703DB1B28068800BF35BD /* PBXTargetDependency */,
+				68D703DD1B28068800BF35BD /* PBXTargetDependency */,
+				68D703DF1B28068800BF35BD /* PBXTargetDependency */,
+				68D703E11B28068800BF35BD /* PBXTargetDependency */,
+				68D703E31B28068800BF35BD /* PBXTargetDependency */,
+				68D703E51B28068800BF35BD /* PBXTargetDependency */,
 			);
 			name = "All Projects";
 			productName = "All Projects";
@@ -977,6 +1114,965 @@
 			containerPortal = 689B1AD21ADDF4ED005BA3B1 /* WorkingWithStoryboards.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 683DC83E1A65F72B00A4B9F5;
+			remoteInfo = WorkingWithStoryboardsTests;
+		};
+		68D702D41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A001ADDF4E4005BA3B1 /* AccelerometerGravity.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310501A91C80100910EB5;
+			remoteInfo = AccelerometerGravity;
+		};
+		68D702D61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A031ADDF4E4005BA3B1 /* AddingImages.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8E21A661CB500A4B9F5;
+			remoteInfo = AddingImages;
+		};
+		68D702D81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A031ADDF4E4005BA3B1 /* AddingImages.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8F71A661CB600A4B9F5;
+			remoteInfo = AddingImagesTests;
+		};
+		68D702DA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A061ADDF4E4005BA3B1 /* AddressLookup.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716421A7F4844008D00BE;
+			remoteInfo = AddressLookup;
+		};
+		68D702DC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A061ADDF4E4005BA3B1 /* AddressLookup.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716571A7F4844008D00BE;
+			remoteInfo = AddressLookupTests;
+		};
+		68D702DE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A091ADDF4E4005BA3B1 /* AssetManagement.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6855021A1A81F8E7004988B1;
+			remoteInfo = AssetManagement;
+		};
+		68D702E01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A091ADDF4E4005BA3B1 /* AssetManagement.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6855022F1A81F8E7004988B1;
+			remoteInfo = AssetManagementTests;
+		};
+		68D702E21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A0C1ADDF4E4005BA3B1 /* Behaviours.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D01A661A92CC2E00BAA66B;
+			remoteInfo = Behaviours;
+		};
+		68D702E41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A0C1ADDF4E4005BA3B1 /* Behaviours.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D01A7F1A92CC2E00BAA66B;
+			remoteInfo = BehavioursTests;
+		};
+		68D702E61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A0F1ADDF4E4005BA3B1 /* CalculatingDeltaTimes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683EFC641A638607002ADFDD;
+			remoteInfo = CalculatingDeltaTimes;
+		};
+		68D702E81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A0F1ADDF4E4005BA3B1 /* CalculatingDeltaTimes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683EFC791A638608002ADFDD;
+			remoteInfo = CalculatingDeltaTimesTests;
+		};
+		68D702EA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A121ADDF4E4005BA3B1 /* CalculatingStartTime.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D78D531A64BADB00CC098A;
+			remoteInfo = CalculatingStartTime;
+		};
+		68D702EC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A121ADDF4E4005BA3B1 /* CalculatingStartTime.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D78D681A64BADB00CC098A;
+			remoteInfo = CalculatingStartTimeTests;
+		};
+		68D702EE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A151ADDF4E4005BA3B1 /* Car.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310501A91C80100910EB5;
+			remoteInfo = Car;
+		};
+		68D702F01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A181ADDF4E4005BA3B1 /* Collisions.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68130FEC1A91AD7800910EB5;
+			remoteInfo = Collisions;
+		};
+		68D702F21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A181ADDF4E4005BA3B1 /* Collisions.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310051A91AD7800910EB5;
+			remoteInfo = CollisionsTests;
+		};
+		68D702F41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A1B1ADDF4E4005BA3B1 /* Compass.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6867155C1A7F287E008D00BE;
+			remoteInfo = Compass;
+		};
+		68D702F61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A1B1ADDF4E4005BA3B1 /* Compass.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715711A7F287E008D00BE;
+			remoteInfo = CompassTests;
+		};
+		68D702F81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A1E1ADDF4E4005BA3B1 /* ComponentBasedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683EFC311A637A91002ADFDD;
+			remoteInfo = ComponentBasedLayout;
+		};
+		68D702FA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A1E1ADDF4E4005BA3B1 /* ComponentBasedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683EFC461A637A91002ADFDD;
+			remoteInfo = ComponentBasedLayoutTests;
+		};
+		68D702FC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A211ADDF4E4005BA3B1 /* Constraints.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8B41A661AF100A4B9F5;
+			remoteInfo = Constraints;
+		};
+		68D702FE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A211ADDF4E4005BA3B1 /* Constraints.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8C91A661AF100A4B9F5;
+			remoteInfo = ConstraintsTests;
+		};
+		68D703001B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A241ADDF4E4005BA3B1 /* CoordinateLookup.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716141A7F44F1008D00BE;
+			remoteInfo = CoordinateLookup;
+		};
+		68D703021B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A241ADDF4E4005BA3B1 /* CoordinateLookup.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716291A7F44F1008D00BE;
+			remoteInfo = CoordinateLookupTests;
+		};
+		68D703041B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A271ADDF4E4005BA3B1 /* CreatingViewControllers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8561A65FCE400A4B9F5;
+			remoteInfo = CreatingViewControllers;
+		};
+		68D703061B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A271ADDF4E4005BA3B1 /* CreatingViewControllers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC86B1A65FCE400A4B9F5;
+			remoteInfo = CreatingViewControllersTests;
+		};
+		68D703081B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A2A1ADDF4E4005BA3B1 /* CurrencyManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6855028D1A820A9F004988B1;
+			remoteInfo = CurrencyManager;
+		};
+		68D7030A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A2A1ADDF4E4005BA3B1 /* CurrencyManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 685502A21A820A9F004988B1;
+			remoteInfo = CurrencyManagerTests;
+		};
+		68D7030C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A2D1ADDF4E4005BA3B1 /* CustomGestureRecognizer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C3516F1A68D3860071E283;
+			remoteInfo = CustomGestureRecognizer;
+		};
+		68D7030E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A2D1ADDF4E4005BA3B1 /* CustomGestureRecognizer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C351841A68D3860071E283;
+			remoteInfo = CustomGestureRecognizerTests;
+		};
+		68D703101B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A301ADDF4E4005BA3B1 /* DetectingControllers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6E0F1A67708600B9D74B;
+			remoteInfo = DetectingControllers;
+		};
+		68D703121B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A301ADDF4E4005BA3B1 /* DetectingControllers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6E241A67708600B9D74B;
+			remoteInfo = DetectingControllersTests;
+		};
+		68D703141B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A331ADDF4E4005BA3B1 /* DetectingTouches.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C350891A689DA90071E283;
+			remoteInfo = DetectingTouches;
+		};
+		68D703161B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A331ADDF4E4005BA3B1 /* DetectingTouches.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C3509E1A689DA90071E283;
+			remoteInfo = DetectingTouchesTests;
+		};
+		68D703181B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A361ADDF4E4005BA3B1 /* DisplayLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C08D61A6393CA008BB47A;
+			remoteInfo = DisplayLink;
+		};
+		68D7031A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A361ADDF4E4005BA3B1 /* DisplayLink.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C08EB1A6393CA008BB47A;
+			remoteInfo = DisplayLinkTests;
+		};
+		68D7031C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A391ADDF4E4005BA3B1 /* Distances.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715E61A7F415F008D00BE;
+			remoteInfo = Distances;
+		};
+		68D7031E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A391ADDF4E4005BA3B1 /* Distances.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715FB1A7F4160008D00BE;
+			remoteInfo = DistancesTests;
+		};
+		68D703201B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A3C1ADDF4E5005BA3B1 /* DragAndDrop.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6DDD1A67430200B9D74B;
+			remoteInfo = DragAndDrop;
+		};
+		68D703221B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A3C1ADDF4E5005BA3B1 /* DragAndDrop.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6DF21A67430200B9D74B;
+			remoteInfo = DragAndDropTests;
+		};
+		68D703241B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A3F1ADDF4E5005BA3B1 /* Dragging.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310501A91C80100910EB5;
+			remoteInfo = Dragging;
+		};
+		68D703261B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A421ADDF4E5005BA3B1 /* DraggingImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C350E51A68C1CC0071E283;
+			remoteInfo = DraggingImage;
+		};
+		68D703281B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A421ADDF4E5005BA3B1 /* DraggingImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C350FA1A68C1CC0071E283;
+			remoteInfo = DraggingImageTests;
+		};
+		68D7032A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A451ADDF4E5005BA3B1 /* EnteringAndExiting.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C084C1A638B9D008BB47A;
+			remoteInfo = EnteringAndExiting;
+		};
+		68D7032C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A451ADDF4E5005BA3B1 /* EnteringAndExiting.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C08611A638B9D008BB47A;
+			remoteInfo = EnteringAndExitingTests;
+		};
+		68D7032E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A481ADDF4E5005BA3B1 /* Explosion.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310501A91C80100910EB5;
+			remoteInfo = Explosion;
+		};
+		68D703301B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A4B1ADDF4E5005BA3B1 /* ExternalDisplays.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6DAF1A6733F000B9D74B;
+			remoteInfo = ExternalDisplays;
+		};
+		68D703321B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A4B1ADDF4E5005BA3B1 /* ExternalDisplays.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6DC41A6733F000B9D74B;
+			remoteInfo = ExternalDisplaysTests;
+		};
+		68D703341B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A4E1ADDF4E5005BA3B1 /* Fading.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D26D1A80882B00CBD077;
+			remoteInfo = Fading;
+		};
+		68D703361B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A4E1ADDF4E5005BA3B1 /* Fading.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2821A80882B00CBD077;
+			remoteInfo = FadingTests;
+		};
+		68D703381B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A511ADDF4E5005BA3B1 /* Forces.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310501A91C80100910EB5;
+			remoteInfo = Forces;
+		};
+		68D7033A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A511ADDF4E5005BA3B1 /* Forces.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310691A91C80200910EB5;
+			remoteInfo = ForcesTests;
+		};
+		68D7033C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A541ADDF4E5005BA3B1 /* GameCenter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D5E6F71A942A3A00A3BA43;
+			remoteInfo = GameCenter;
+		};
+		68D7033E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A541ADDF4E5005BA3B1 /* GameCenter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D5E70C1A942A3A00A3BA43;
+			remoteInfo = GameCenterTests;
+		};
+		68D703401B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A571ADDF4E5005BA3B1 /* Grid.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6817E1BF1A64DD5500C5C98B;
+			remoteInfo = Grid;
+		};
+		68D703421B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A571ADDF4E5005BA3B1 /* Grid.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6817E1D41A64DD5500C5C98B;
+			remoteInfo = GridTests;
+		};
+		68D703441B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A5A1ADDF4E5005BA3B1 /* iCloudSavedGames.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D3581A81B9B200CBD077;
+			remoteInfo = iCloudSavedGames;
+		};
+		68D703461B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A5A1ADDF4E5005BA3B1 /* iCloudSavedGames.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D36D1A81B9B200CBD077;
+			remoteInfo = iCloudSavedGamesTests;
+		};
+		68D703481B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A5D1ADDF4E5005BA3B1 /* InheritanceBasedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683EFBFF1A637626002ADFDD;
+			remoteInfo = InheritanceBasedLayout;
+		};
+		68D7034A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A5D1ADDF4E5005BA3B1 /* InheritanceBasedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683EFC141A637626002ADFDD;
+			remoteInfo = InheritanceBasedLayoutTests;
+		};
+		68D7034C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A601ADDF4E5005BA3B1 /* Joints.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6813101E1A91BEFE00910EB5;
+			remoteInfo = Joints;
+		};
+		68D7034E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A601ADDF4E5005BA3B1 /* Joints.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310371A91BEFE00910EB5;
+			remoteInfo = JointsTests;
+		};
+		68D703501B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A631ADDF4E5005BA3B1 /* MagneticFields.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6867169E1A7F4E27008D00BE;
+			remoteInfo = MagneticFields;
+		};
+		68D703521B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A631ADDF4E5005BA3B1 /* MagneticFields.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716B31A7F4E27008D00BE;
+			remoteInfo = MagneticFieldsTests;
+		};
+		68D703541B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A661ADDF4E5005BA3B1 /* MovingWithCoreAnimation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC96C1A66238700A4B9F5;
+			remoteInfo = MovingWithCoreAnimation;
+		};
+		68D703561B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A661ADDF4E5005BA3B1 /* MovingWithCoreAnimation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9811A66238700A4B9F5;
+			remoteInfo = MovingWithCoreAnimationTests;
+		};
+		68D703581B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A691ADDF4E6005BA3B1 /* MultiplePlayers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2361A80803000CBD077;
+			remoteInfo = MultiplePlayers;
+		};
+		68D7035A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A691ADDF4E6005BA3B1 /* MultiplePlayers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D24B1A80803000CBD077;
+			remoteInfo = MultiplePlayersTests;
+		};
+		68D7035C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A6C1ADDF4E6005BA3B1 /* MusicLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2CC1A80A40300CBD077;
+			remoteInfo = MusicLibrary;
+		};
+		68D7035E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A6C1ADDF4E6005BA3B1 /* MusicLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2E11A80A40300CBD077;
+			remoteInfo = MusicLibraryTests;
+		};
+		68D703601B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A6F1ADDF4E6005BA3B1 /* OverlayingMenus.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D511A66438500B9D74B;
+			remoteInfo = OverlayingMenus;
+		};
+		68D703621B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A6F1ADDF4E6005BA3B1 /* OverlayingMenus.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D661A66438500B9D74B;
+			remoteInfo = OverlayingMenusTests;
+		};
+		68D703641B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A721ADDF4E6005BA3B1 /* ParallaxScrolling.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688797631A8347A800C19F13;
+			remoteInfo = ParallaxScrolling;
+		};
+		68D703661B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A721ADDF4E6005BA3B1 /* ParallaxScrolling.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688797781A8347A800C19F13;
+			remoteInfo = ParallaxScrollingTests;
+		};
+		68D703681B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A751ADDF4E6005BA3B1 /* Pausing.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D78D231A64B99900CC098A;
+			remoteInfo = Pausing;
+		};
+		68D7036A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A751ADDF4E6005BA3B1 /* Pausing.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D78D381A64B99A00CC098A;
+			remoteInfo = PausingTests;
+		};
+		68D7036C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A781ADDF4E6005BA3B1 /* PhysicsSprites.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68130FBA1A91808400910EB5;
+			remoteInfo = PhysicsSprites;
+		};
+		68D7036E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A781ADDF4E6005BA3B1 /* PhysicsSprites.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68130FD31A91808400910EB5;
+			remoteInfo = PhysicsSpritesTests;
+		};
+		68D703701B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A7B1ADDF4E6005BA3B1 /* Pinching.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C351411A68CF6D0071E283;
+			remoteInfo = Pinching;
+		};
+		68D703721B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A7B1ADDF4E6005BA3B1 /* Pinching.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C351561A68CF6D0071E283;
+			remoteInfo = PinchingTests;
+		};
+		68D703741B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A7E1ADDF4E6005BA3B1 /* PoppingEffect.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9C81A66288600A4B9F5;
+			remoteInfo = PoppingEffect;
+		};
+		68D703761B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A7E1ADDF4E6005BA3B1 /* PoppingEffect.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9DD1A66288600A4B9F5;
+			remoteInfo = PoppingEffectTests;
+		};
+		68D703781B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A811ADDF4E6005BA3B1 /* RotatingImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC99A1A66269300A4B9F5;
+			remoteInfo = RotatingImage;
+		};
+		68D7037A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A811ADDF4E6005BA3B1 /* RotatingImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9AF1A66269300A4B9F5;
+			remoteInfo = RotatingImageTests;
+		};
+		68D7037C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A841ADDF4E7005BA3B1 /* RotatingIn3D.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D231A663D3900B9D74B;
+			remoteInfo = RotatingIn3D;
+		};
+		68D7037E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A841ADDF4E7005BA3B1 /* RotatingIn3D.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D381A663D3900B9D74B;
+			remoteInfo = RotatingIn3DTests;
+		};
+		68D703801B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A871ADDF4E7005BA3B1 /* RotationGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C351131A68CA1E0071E283;
+			remoteInfo = RotationGesture;
+		};
+		68D703821B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A871ADDF4E7005BA3B1 /* RotationGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C351281A68CA1E0071E283;
+			remoteInfo = RotationGestureTests;
+		};
+		68D703841B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A8A1ADDF4E7005BA3B1 /* SavingHighScores.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D32A1A81ABD500CBD077;
+			remoteInfo = SavingHighScores;
+		};
+		68D703861B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A8A1ADDF4E7005BA3B1 /* SavingHighScores.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D33F1A81ABD500CBD077;
+			remoteInfo = SavingHighScoresTests;
+		};
+		68D703881B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A8D1ADDF4E7005BA3B1 /* SavingState.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2FA1A81A60C00CBD077;
+			remoteInfo = SavingState;
+		};
+		68D7038A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A8D1ADDF4E7005BA3B1 /* SavingState.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D30F1A81A60C00CBD077;
+			remoteInfo = SavingStateTests;
+		};
+		68D7038C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A901ADDF4E7005BA3B1 /* SceneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68326D2719AC0DFF00AE1247;
+			remoteInfo = SceneKit;
+		};
+		68D7038E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A901ADDF4E7005BA3B1 /* SceneKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68326D3919AC0DFF00AE1247;
+			remoteInfo = SceneKitTests;
+		};
+		68D703901B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A931ADDF4E7005BA3B1 /* SelectingAirplayDevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D811A672CFB00B9D74B;
+			remoteInfo = SelectingAirplayDevice;
+		};
+		68D703921B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A931ADDF4E7005BA3B1 /* SelectingAirplayDevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D961A672CFB00B9D74B;
+			remoteInfo = SelectingAirplayDeviceTests;
+		};
+		68D703941B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A961ADDF4E8005BA3B1 /* Shake.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715001A7F1BEA008D00BE;
+			remoteInfo = Shake;
+		};
+		68D703961B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A961ADDF4E8005BA3B1 /* Shake.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715151A7F1BEA008D00BE;
+			remoteInfo = ShakeTests;
+		};
+		68D703981B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A991ADDF4E8005BA3B1 /* Sharing.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D5E7271A944F4600A3BA43;
+			remoteInfo = Sharing;
+		};
+		68D7039A1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A991ADDF4E8005BA3B1 /* Sharing.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D5E73C1A944F4600A3BA43;
+			remoteInfo = SharingTests;
+		};
+		68D7039C1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A9C1ADDF4E8005BA3B1 /* SimpleAudioPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D1D71A8074BF00CBD077;
+			remoteInfo = SimpleAudioPlayer;
+		};
+		68D7039E1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A9C1ADDF4E8005BA3B1 /* SimpleAudioPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D1EC1A8074BF00CBD077;
+			remoteInfo = SimpleAudioPlayerTests;
+		};
+		68D703A01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A9F1ADDF4E8005BA3B1 /* SlicingImages.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9101A661E3900A4B9F5;
+			remoteInfo = SlicingImages;
+		};
+		68D703A21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1A9F1ADDF4E8005BA3B1 /* SlicingImages.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9251A661E3900A4B9F5;
+			remoteInfo = SlicingImagesTests;
+		};
+		68D703A41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AA21ADDF4E8005BA3B1 /* SoundRecording.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2081A807A0400CBD077;
+			remoteInfo = SoundRecording;
+		};
+		68D703A61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AA21ADDF4E8005BA3B1 /* SoundRecording.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D21D1A807A0400CBD077;
+			remoteInfo = SoundRecordingTests;
+		};
+		68D703A81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AA51ADDF4E9005BA3B1 /* Speech.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D29E1A80909200CBD077;
+			remoteInfo = Speech;
+		};
+		68D703AA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AA51ADDF4E9005BA3B1 /* Speech.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D2B31A80909200CBD077;
+			remoteInfo = SpeechTests;
+		};
+		68D703AC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AA81ADDF4E9005BA3B1 /* Speed.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715B81A7F3A4D008D00BE;
+			remoteInfo = Speed;
+		};
+		68D703AE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AA81ADDF4E9005BA3B1 /* Speed.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715CD1A7F3A4D008D00BE;
+			remoteInfo = SpeedTests;
+		};
+		68D703B01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AAB1ADDF4E9005BA3B1 /* SpriteWalkthrough.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CD5E3E1A82EA5B009FA1B1;
+			remoteInfo = SpriteWalkthrough;
+		};
+		68D703B21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AAB1ADDF4E9005BA3B1 /* SpriteWalkthrough.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CD5E531A82EA5B009FA1B1;
+			remoteInfo = SpriteWalkthroughTests;
+		};
+		68D703B41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AAE1ADDF4E9005BA3B1 /* Steering.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716701A7F4C00008D00BE;
+			remoteInfo = Steering;
+		};
+		68D703B61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AAE1ADDF4E9005BA3B1 /* Steering.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686716851A7F4C01008D00BE;
+			remoteInfo = SteeringTests;
+		};
+		68D703B81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AB11ADDF4EA005BA3B1 /* StructuredData.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D3871A81E2BE00CBD077;
+			remoteInfo = StructuredData;
+		};
+		68D703BA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AB11ADDF4EA005BA3B1 /* StructuredData.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6810D39C1A81E2BF00CBD077;
+			remoteInfo = StructuredDataTests;
+		};
+		68D703BC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AB41ADDF4EA005BA3B1 /* TapGestures.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C350B71A689FB10071E283;
+			remoteInfo = TapGestures;
+		};
+		68D703BE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AB41ADDF4EA005BA3B1 /* TapGestures.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 68C350CC1A689FB10071E283;
+			remoteInfo = TapGesturesTests;
+		};
+		68D703C01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AB71ADDF4EA005BA3B1 /* Theming.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6CF51A662A9A00B9D74B;
+			remoteInfo = Theming;
+		};
+		68D703C21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AB71ADDF4EA005BA3B1 /* Theming.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 688C6D0A1A662A9A00B9D74B;
+			remoteInfo = ThemingTests;
+		};
+		68D703C41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ABA1ADDF4EA005BA3B1 /* Thrusters.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 681310501A91C80100910EB5;
+			remoteInfo = Thrusters;
+		};
+		68D703C61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ABD1ADDF4EB005BA3B1 /* Tilting.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6867152E1A7F2365008D00BE;
+			remoteInfo = Tilting;
+		};
+		68D703C81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ABD1ADDF4EB005BA3B1 /* Tilting.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686715431A7F2366008D00BE;
+			remoteInfo = TiltingTests;
+		};
+		68D703CA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC01ADDF4EB005BA3B1 /* Timers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C087A1A638F8C008BB47A;
+			remoteInfo = Timers;
+		};
+		68D703CC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC01ADDF4EB005BA3B1 /* Timers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C088F1A638F8C008BB47A;
+			remoteInfo = TimersTests;
+		};
+		68D703CE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC31ADDF4EB005BA3B1 /* TouchRegion.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686714D01A7F19A2008D00BE;
+			remoteInfo = TouchRegion;
+		};
+		68D703D01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC31ADDF4EB005BA3B1 /* TouchRegion.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 686714E51A7F19A2008D00BE;
+			remoteInfo = TouchRegionTests;
+		};
+		68D703D21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC61ADDF4EB005BA3B1 /* UserDefaults.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6855025F1A82075A004988B1;
+			remoteInfo = UserDefaults;
+		};
+		68D703D41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC61ADDF4EB005BA3B1 /* UserDefaults.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 685502741A82075A004988B1;
+			remoteInfo = UserDefaultsTests;
+		};
+		68D703D61B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC91ADDF4EC005BA3B1 /* UserLocation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6867158A1A7F2ACD008D00BE;
+			remoteInfo = UserLocation;
+		};
+		68D703D81B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AC91ADDF4EC005BA3B1 /* UserLocation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6867159F1A7F2ACD008D00BE;
+			remoteInfo = UserLocationTests;
+		};
+		68D703DA1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ACC1ADDF4EC005BA3B1 /* UsingDynamics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC93E1A661F1200A4B9F5;
+			remoteInfo = UsingDynamics;
+		};
+		68D703DC1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ACC1ADDF4EC005BA3B1 /* UsingDynamics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC9531A661F1200A4B9F5;
+			remoteInfo = UsingDynamicsTests;
+		};
+		68D703DE1B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ACF1ADDF4EC005BA3B1 /* UsingSegues.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8861A66168400A4B9F5;
+			remoteInfo = UsingSegues;
+		};
+		68D703E01B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1ACF1ADDF4EC005BA3B1 /* UsingSegues.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC89B1A66168400A4B9F5;
+			remoteInfo = UsingSeguesTests;
+		};
+		68D703E21B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AD21ADDF4ED005BA3B1 /* WorkingWithStoryboards.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC8281A65F72B00A4B9F5;
+			remoteInfo = WorkingWithStoryboards;
+		};
+		68D703E41B28068800BF35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689B1AD21ADDF4ED005BA3B1 /* WorkingWithStoryboards.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 683DC83D1A65F72B00A4B9F5;
 			remoteInfo = WorkingWithStoryboardsTests;
 		};
 /* End PBXContainerItemProxy section */
@@ -3043,6 +4139,694 @@
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		68D702D51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AccelerometerGravity;
+			targetProxy = 68D702D41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702D71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddingImages;
+			targetProxy = 68D702D61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702D91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddingImagesTests;
+			targetProxy = 68D702D81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702DB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddressLookup;
+			targetProxy = 68D702DA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702DD1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddressLookupTests;
+			targetProxy = 68D702DC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702DF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AssetManagement;
+			targetProxy = 68D702DE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702E11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AssetManagementTests;
+			targetProxy = 68D702E01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702E31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Behaviours;
+			targetProxy = 68D702E21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702E51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BehavioursTests;
+			targetProxy = 68D702E41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702E71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalculatingDeltaTimes;
+			targetProxy = 68D702E61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702E91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalculatingDeltaTimesTests;
+			targetProxy = 68D702E81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702EB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalculatingStartTime;
+			targetProxy = 68D702EA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702ED1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalculatingStartTimeTests;
+			targetProxy = 68D702EC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702EF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Car;
+			targetProxy = 68D702EE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702F11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Collisions;
+			targetProxy = 68D702F01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702F31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CollisionsTests;
+			targetProxy = 68D702F21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702F51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Compass;
+			targetProxy = 68D702F41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702F71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompassTests;
+			targetProxy = 68D702F61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702F91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComponentBasedLayout;
+			targetProxy = 68D702F81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702FB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComponentBasedLayoutTests;
+			targetProxy = 68D702FA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702FD1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Constraints;
+			targetProxy = 68D702FC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D702FF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConstraintsTests;
+			targetProxy = 68D702FE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703011B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoordinateLookup;
+			targetProxy = 68D703001B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703031B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoordinateLookupTests;
+			targetProxy = 68D703021B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703051B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreatingViewControllers;
+			targetProxy = 68D703041B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703071B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreatingViewControllersTests;
+			targetProxy = 68D703061B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703091B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CurrencyManager;
+			targetProxy = 68D703081B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7030B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CurrencyManagerTests;
+			targetProxy = 68D7030A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7030D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomGestureRecognizer;
+			targetProxy = 68D7030C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7030F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomGestureRecognizerTests;
+			targetProxy = 68D7030E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703111B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DetectingControllers;
+			targetProxy = 68D703101B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703131B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DetectingControllersTests;
+			targetProxy = 68D703121B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703151B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DetectingTouches;
+			targetProxy = 68D703141B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703171B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DetectingTouchesTests;
+			targetProxy = 68D703161B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703191B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DisplayLink;
+			targetProxy = 68D703181B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7031B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DisplayLinkTests;
+			targetProxy = 68D7031A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7031D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Distances;
+			targetProxy = 68D7031C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7031F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DistancesTests;
+			targetProxy = 68D7031E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703211B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragAndDrop;
+			targetProxy = 68D703201B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703231B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragAndDropTests;
+			targetProxy = 68D703221B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703251B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dragging;
+			targetProxy = 68D703241B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703271B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DraggingImage;
+			targetProxy = 68D703261B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703291B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DraggingImageTests;
+			targetProxy = 68D703281B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7032B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EnteringAndExiting;
+			targetProxy = 68D7032A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7032D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EnteringAndExitingTests;
+			targetProxy = 68D7032C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7032F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Explosion;
+			targetProxy = 68D7032E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703311B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExternalDisplays;
+			targetProxy = 68D703301B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703331B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExternalDisplaysTests;
+			targetProxy = 68D703321B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703351B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fading;
+			targetProxy = 68D703341B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703371B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FadingTests;
+			targetProxy = 68D703361B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703391B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Forces;
+			targetProxy = 68D703381B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7033B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForcesTests;
+			targetProxy = 68D7033A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7033D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GameCenter;
+			targetProxy = 68D7033C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7033F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GameCenterTests;
+			targetProxy = 68D7033E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703411B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Grid;
+			targetProxy = 68D703401B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703431B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GridTests;
+			targetProxy = 68D703421B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703451B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCloudSavedGames;
+			targetProxy = 68D703441B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703471B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCloudSavedGamesTests;
+			targetProxy = 68D703461B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703491B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InheritanceBasedLayout;
+			targetProxy = 68D703481B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7034B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InheritanceBasedLayoutTests;
+			targetProxy = 68D7034A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7034D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Joints;
+			targetProxy = 68D7034C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7034F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JointsTests;
+			targetProxy = 68D7034E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703511B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagneticFields;
+			targetProxy = 68D703501B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703531B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagneticFieldsTests;
+			targetProxy = 68D703521B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703551B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MovingWithCoreAnimation;
+			targetProxy = 68D703541B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703571B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MovingWithCoreAnimationTests;
+			targetProxy = 68D703561B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703591B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiplePlayers;
+			targetProxy = 68D703581B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7035B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultiplePlayersTests;
+			targetProxy = 68D7035A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7035D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MusicLibrary;
+			targetProxy = 68D7035C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7035F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MusicLibraryTests;
+			targetProxy = 68D7035E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703611B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OverlayingMenus;
+			targetProxy = 68D703601B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703631B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OverlayingMenusTests;
+			targetProxy = 68D703621B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703651B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxScrolling;
+			targetProxy = 68D703641B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703671B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxScrollingTests;
+			targetProxy = 68D703661B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703691B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pausing;
+			targetProxy = 68D703681B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7036B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PausingTests;
+			targetProxy = 68D7036A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7036D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhysicsSprites;
+			targetProxy = 68D7036C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7036F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhysicsSpritesTests;
+			targetProxy = 68D7036E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703711B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pinching;
+			targetProxy = 68D703701B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703731B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinchingTests;
+			targetProxy = 68D703721B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703751B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoppingEffect;
+			targetProxy = 68D703741B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703771B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PoppingEffectTests;
+			targetProxy = 68D703761B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703791B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RotatingImage;
+			targetProxy = 68D703781B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7037B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RotatingImageTests;
+			targetProxy = 68D7037A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7037D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RotatingIn3D;
+			targetProxy = 68D7037C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7037F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RotatingIn3DTests;
+			targetProxy = 68D7037E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703811B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RotationGesture;
+			targetProxy = 68D703801B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703831B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RotationGestureTests;
+			targetProxy = 68D703821B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703851B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SavingHighScores;
+			targetProxy = 68D703841B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703871B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SavingHighScoresTests;
+			targetProxy = 68D703861B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703891B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SavingState;
+			targetProxy = 68D703881B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7038B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SavingStateTests;
+			targetProxy = 68D7038A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7038D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SceneKit;
+			targetProxy = 68D7038C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7038F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SceneKitTests;
+			targetProxy = 68D7038E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703911B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SelectingAirplayDevice;
+			targetProxy = 68D703901B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703931B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SelectingAirplayDeviceTests;
+			targetProxy = 68D703921B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703951B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Shake;
+			targetProxy = 68D703941B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703971B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShakeTests;
+			targetProxy = 68D703961B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703991B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sharing;
+			targetProxy = 68D703981B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7039B1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SharingTests;
+			targetProxy = 68D7039A1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7039D1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleAudioPlayer;
+			targetProxy = 68D7039C1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D7039F1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleAudioPlayerTests;
+			targetProxy = 68D7039E1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703A11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlicingImages;
+			targetProxy = 68D703A01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703A31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlicingImagesTests;
+			targetProxy = 68D703A21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703A51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundRecording;
+			targetProxy = 68D703A41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703A71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SoundRecordingTests;
+			targetProxy = 68D703A61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703A91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Speech;
+			targetProxy = 68D703A81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703AB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpeechTests;
+			targetProxy = 68D703AA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703AD1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Speed;
+			targetProxy = 68D703AC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703AF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpeedTests;
+			targetProxy = 68D703AE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703B11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpriteWalkthrough;
+			targetProxy = 68D703B01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703B31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpriteWalkthroughTests;
+			targetProxy = 68D703B21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703B51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Steering;
+			targetProxy = 68D703B41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703B71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteeringTests;
+			targetProxy = 68D703B61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703B91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StructuredData;
+			targetProxy = 68D703B81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703BB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StructuredDataTests;
+			targetProxy = 68D703BA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703BD1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapGestures;
+			targetProxy = 68D703BC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703BF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapGesturesTests;
+			targetProxy = 68D703BE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703C11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Theming;
+			targetProxy = 68D703C01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703C31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThemingTests;
+			targetProxy = 68D703C21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703C51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Thrusters;
+			targetProxy = 68D703C41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703C71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tilting;
+			targetProxy = 68D703C61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703C91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TiltingTests;
+			targetProxy = 68D703C81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703CB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Timers;
+			targetProxy = 68D703CA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703CD1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimersTests;
+			targetProxy = 68D703CC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703CF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchRegion;
+			targetProxy = 68D703CE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703D11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchRegionTests;
+			targetProxy = 68D703D01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703D31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UserDefaults;
+			targetProxy = 68D703D21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703D51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UserDefaultsTests;
+			targetProxy = 68D703D41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703D71B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UserLocation;
+			targetProxy = 68D703D61B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703D91B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UserLocationTests;
+			targetProxy = 68D703D81B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703DB1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UsingDynamics;
+			targetProxy = 68D703DA1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703DD1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UsingDynamicsTests;
+			targetProxy = 68D703DC1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703DF1B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UsingSegues;
+			targetProxy = 68D703DE1B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703E11B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UsingSeguesTests;
+			targetProxy = 68D703E01B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703E31B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WorkingWithStoryboards;
+			targetProxy = 68D703E21B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+		68D703E51B28068800BF35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WorkingWithStoryboardsTests;
+			targetProxy = 68D703E41B28068800BF35BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		68B6F2D41ADDF05F001465B5 /* Debug */ = {

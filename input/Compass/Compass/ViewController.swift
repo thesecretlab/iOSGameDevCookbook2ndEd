@@ -17,16 +17,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        var mainQueue = NSOperationQueue.mainQueue()
+        let mainQueue = NSOperationQueue.mainQueue()
         
 // BEGIN compass
         
 motionManager.startDeviceMotionUpdatesUsingReferenceFrame(
     CMAttitudeReferenceFrame.XTrueNorthZVertical,
     toQueue: mainQueue) { (motion, error) in
-    var yaw = motion.attitude.yaw
+    let yaw = motion!.attitude.yaw
             
-    var yawDegrees = yaw * 180 / M_PI
+    let yawDegrees = yaw * 180 / M_PI
             
     self.directionLabel.text = String(format:"Direction: %.0f°", yawDegrees)
             

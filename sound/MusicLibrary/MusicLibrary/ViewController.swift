@@ -72,18 +72,18 @@ deinit {
 // BEGIN playback_control
 let musicPlayer = MPMusicPlayerController.systemMusicPlayer()
         
-musicPlayer?.play()
-musicPlayer?.pause()
-musicPlayer?.skipToBeginning()
-musicPlayer?.skipToNextItem()
-musicPlayer?.skipToPreviousItem()
-musicPlayer?.beginSeekingForward()
-musicPlayer?.beginSeekingBackward()
-musicPlayer?.stop()
+musicPlayer.play()
+musicPlayer.pause()
+musicPlayer.skipToBeginning()
+musicPlayer.skipToNextItem()
+musicPlayer.skipToPreviousItem()
+musicPlayer.beginSeekingForward()
+musicPlayer.beginSeekingBackward()
+musicPlayer.stop()
 // END playback_control
 
         
-        musicPlayer?.playbackState
+        musicPlayer.playbackState
 
     }
     
@@ -107,13 +107,13 @@ self.presentViewController(picker, animated:false, completion:nil)
     }
     
 // BEGIN picker_delegate_methods
-func mediaPicker(mediaPicker: MPMediaPickerController!,
-    didPickMediaItems mediaItemCollection: MPMediaItemCollection!) {
+func mediaPicker(mediaPicker: MPMediaPickerController,
+    didPickMediaItems mediaItemCollection: MPMediaItemCollection) {
         
     for item in mediaItemCollection.items {
         let itemName = item.valueForProperty(MPMediaItemPropertyTitle)
             as? String
-        println("Picked item: \(itemName)")
+        print("Picked item: \(itemName)")
     }
         
     // BEGIN play_selection
@@ -127,7 +127,7 @@ func mediaPicker(mediaPicker: MPMediaPickerController!,
     self.dismissViewControllerAnimated(false, completion:nil)
 }
     
-func mediaPickerDidCancel(mediaPicker: MPMediaPickerController!) {
+func mediaPickerDidCancel(mediaPicker: MPMediaPickerController) {
     self.dismissViewControllerAnimated(false, completion:nil)
 }
 // END picker_delegate_methods

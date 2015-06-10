@@ -160,6 +160,7 @@
 		68D5E6F01A942A3A00A3BA43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -421,6 +422,7 @@
 				68D5E7191A942A3A00A3BA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68D5E71A1A942A3A00A3BA43 /* Build configuration list for PBXNativeTarget "GameCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +431,7 @@
 				68D5E71C1A942A3A00A3BA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

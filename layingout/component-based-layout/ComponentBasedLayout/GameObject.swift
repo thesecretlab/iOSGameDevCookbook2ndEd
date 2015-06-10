@@ -22,7 +22,7 @@ class GameObject: NSObject {
     
     // Remove a component from this game object, if we have it
     func removeComponent(component : Component) {
-        if let index = find(components, component) {
+        if let index = components.indexOf(component) {
             component.gameObject = nil
             components.removeAtIndex(index)
         }

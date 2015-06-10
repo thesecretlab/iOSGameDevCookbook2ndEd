@@ -170,6 +170,7 @@
 		68326D2019AC0DFF00AE1247 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var grid = Grid()
+        let grid = Grid()
         
         grid.addObject("Hello", atPosition: GridPoint(x: 0, y: 0))
         

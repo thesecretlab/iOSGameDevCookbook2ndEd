@@ -156,6 +156,7 @@
 		686716971A7F4E27008D00BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				686716C01A7F4E27008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		686716C11A7F4E27008D00BE /* Build configuration list for PBXNativeTarget "MagneticFieldsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				686716C31A7F4E27008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

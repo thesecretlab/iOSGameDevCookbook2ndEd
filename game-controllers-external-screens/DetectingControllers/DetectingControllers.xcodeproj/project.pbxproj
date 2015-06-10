@@ -156,6 +156,7 @@
 		688C6E081A67708600B9D74B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				688C6E311A67708600B9D74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		688C6E321A67708600B9D74B /* Build configuration list for PBXNativeTarget "DetectingControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				688C6E341A67708600B9D74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

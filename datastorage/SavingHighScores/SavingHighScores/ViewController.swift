@@ -34,7 +34,7 @@ let highScores = [scoreDictionary]
 let fileManager = NSFileManager.defaultManager()
 let documentsURL = fileManager.URLsForDirectory(
     NSSearchPathDirectory.DocumentDirectory,
-    inDomains:NSSearchPathDomainMask.UserDomainMask).last as! NSURL
+    inDomains:NSSearchPathDomainMask.UserDomainMask).last!
         
 let highScoreURL = documentsURL
     .URLByAppendingPathComponent("HighScores.plist")
@@ -52,9 +52,9 @@ let highScoreURL = documentsURL
 // If it can't be loaded, or doesn't contain this type, result is nil
 if let loadedHighScores
     = NSArray(contentsOfURL: highScoreURL) as? [[String:AnyObject]] {
-    println("Loaded high scores:\(loadedHighScores)")
+    print("Loaded high scores:\(loadedHighScores)")
 } else {
-    println("Error loading high scores!")
+    print("Error loading high scores!")
 }
 // END read_data
 

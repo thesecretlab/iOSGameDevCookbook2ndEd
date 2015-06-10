@@ -156,6 +156,7 @@
 		6810D2C51A80A40300CBD077 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				6810D2EE1A80A40300CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6810D2EF1A80A40300CBD077 /* Build configuration list for PBXNativeTarget "MusicLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				6810D2F11A80A40300CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

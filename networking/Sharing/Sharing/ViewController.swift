@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     @IBAction func shareText(sender: AnyObject) {
 // BEGIN share_text
 // Get a string from somewhere
-let textToShare : String = self.textField.text
+let textToShare : String = self.textField.text!
 // Put it in an array
 let activityItems = [textToShare]
         
@@ -41,7 +41,7 @@ self.presentViewController(activityViewController,
 
     @IBAction func shareTextImageAndURL(sender: AnyObject) {
 // BEGIN share_text_image_url
-let textToShare : String = self.textField.text
+let textToShare : String = self.textField.text!
 let URLToShare = NSURL(string: "http://oreilly.com")!
 let imageToShare = self.imageView.image!
 let activityItems = [textToShare, URLToShare, imageToShare]
@@ -56,7 +56,7 @@ self.presentViewController(activityViewController, animated: true, completion: n
     @IBAction func shareTextAndURL(sender: AnyObject) {
 
 // BEGIN share_text_url
-let textToShare : String = self.textField.text
+let textToShare : String = self.textField.text!
 let URLToShare = NSURL(string: "http://oreilly.com")!
 let activityItems = [textToShare, URLToShare]
         

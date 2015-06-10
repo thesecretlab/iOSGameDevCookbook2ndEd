@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             ],
             maximumDistance: 1)
         
-        println(n.pathTo(CGPoint(x: 0, y: 0), end: CGPoint(x: 5, y: 2))?.description)
+        print(n.pathTo(CGPoint(x: 0, y: 0), end: CGPoint(x: 5, y: 2))?.description)
         
         return true
     }

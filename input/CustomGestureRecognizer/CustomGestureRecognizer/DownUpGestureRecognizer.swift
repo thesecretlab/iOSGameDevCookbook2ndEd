@@ -13,7 +13,7 @@ class DownUpGestureRecognizer: UIGestureRecognizer {
     
     // Represents the two phases that the gesture can be in:
     // moving down, or moving up after having moved down
-    enum DownUpGesturePhase : Printable {
+    enum DownUpGesturePhase : CustomStringConvertible {
         case MovingDown, MovingUp
         
         // The 'Printable' protocol above means that this type
@@ -35,8 +35,8 @@ class DownUpGestureRecognizer: UIGestureRecognizer {
     
     var phase : DownUpGesturePhase = .MovingDown
     
-    override func touchesBegan(touches: Set<NSObject>,
-        withEvent event: UIEvent!) {
+    override func touchesBegan(touches: Set<UITouch>,
+        withEvent event: UIEvent) {
             
         self.phase = .MovingDown
         
@@ -52,12 +52,12 @@ class DownUpGestureRecognizer: UIGestureRecognizer {
         }
     }
     
-    override func touchesMoved(touches: Set<NSObject>,
+    override func touchesMoved(touches: Set<UITouch>,
         withEvent event:UIEvent) {
             
         // We know we only have one touch, beacuse touchesBegan will stop
         // recognizing when more than one touch is detected
-        let touch = touches.first! as! UITouch
+        let touch = touches.first! as UITouch
         
         // Get the current and previous position of the touch
         let position = touch.locationInView(touch.view)
@@ -99,8 +99,8 @@ class DownUpGestureRecognizer: UIGestureRecognizer {
         }
     }
     
-    override func touchesEnded(touches: Set<NSObject>,
-        withEvent event: UIEvent!) {
+    override func touchesEnded(touches: Set<UITouch>,
+        withEvent event: UIEvent) {
             
         // We know that there's only one touch.
         

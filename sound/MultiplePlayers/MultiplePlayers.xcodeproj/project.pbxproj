@@ -14,9 +14,6 @@
 		6810D2471A80803000CBD077 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6810D2451A80803000CBD077 /* LaunchScreen.xib */; };
 		6810D2531A80803000CBD077 /* MultiplePlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810D2521A80803000CBD077 /* MultiplePlayersTests.swift */; };
 		6810D25D1A80811B00CBD077 /* AVAudioPlayerPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810D25C1A80811B00CBD077 /* AVAudioPlayerPool.swift */; };
-		6810D2621A8083E600CBD077 /* ReceiveMessage.aif in Resources */ = {isa = PBXBuildFile; fileRef = 6810D25F1A8083E600CBD077 /* ReceiveMessage.aif */; };
-		6810D2631A8083E600CBD077 /* SendMessage.aif in Resources */ = {isa = PBXBuildFile; fileRef = 6810D2601A8083E600CBD077 /* SendMessage.aif */; };
-		6810D2641A8083E600CBD077 /* TestSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6810D2611A8083E600CBD077 /* TestSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +173,7 @@
 		6810D22F1A80803000CBD077 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -212,10 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6810D2641A8083E600CBD077 /* TestSound.wav in Resources */,
-				6810D2621A8083E600CBD077 /* ReceiveMessage.aif in Resources */,
 				6810D2421A80803000CBD077 /* Main.storyboard in Resources */,
-				6810D2631A8083E600CBD077 /* SendMessage.aif in Resources */,
 				6810D2471A80803000CBD077 /* LaunchScreen.xib in Resources */,
 				6810D2441A80803000CBD077 /* Images.xcassets in Resources */,
 			);
@@ -429,6 +424,7 @@
 				6810D2581A80803000CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6810D2591A80803000CBD077 /* Build configuration list for PBXNativeTarget "MultiplePlayersTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +433,7 @@
 				6810D25B1A80803000CBD077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

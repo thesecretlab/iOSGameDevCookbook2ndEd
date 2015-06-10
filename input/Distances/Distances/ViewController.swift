@@ -26,36 +26,36 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
-    func locationManager(manager: CLLocationManager!,
-        didUpdateLocations locations: [AnyObject]!) {
+    func locationManager(manager: CLLocationManager,
+        didUpdateLocations locations: [AnyObject]) {
         if regionToMonitor == nil {
             
-            var location = locations.last as! CLLocation
+            let location = locations.last as! CLLocation
             
             regionToMonitor = CLCircularRegion(center: location.coordinate,
                 radius: 20.0, identifier: "StartingPoint")
 
-            locationManager.startMonitoringForRegion(regionToMonitor)
+            locationManager.startMonitoringForRegion(regionToMonitor!)
             
-            println("Now monitoring region \(regionToMonitor)")
+            print("Now monitoring region \(regionToMonitor)")
             
         }
     }
     
-    func locationManager(manager: CLLocationManager!,
-        monitoringDidFailForRegion region: CLRegion!, withError error: NSError!) {
-        println("Failed to start monitoring region!")
+    func locationManager(manager: CLLocationManager,
+        monitoringDidFailForRegion region: CLRegion?, withError error: NSError) {
+        print("Failed to start monitoring region!")
 
     }
     
-    func locationManager(manager: CLLocationManager!,
-        didEnterRegion region: CLRegion!) {
-        println("Entering region!")
+    func locationManager(manager: CLLocationManager,
+        didEnterRegion region: CLRegion) {
+        print("Entering region!")
     }
     
-    func locationManager(manager: CLLocationManager!,
-        didExitRegion region: CLRegion!) {
-        println("Exiting region!")
+    func locationManager(manager: CLLocationManager,
+        didExitRegion region: CLRegion) {
+        print("Exiting region!")
     }
 
 

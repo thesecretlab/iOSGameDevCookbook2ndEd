@@ -24,18 +24,18 @@ class ViewController: UIViewController {
     
 // BEGIN shaking
 // BEGIN motion_methods
-override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent) {
+override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
     // Show a label when shaking begins
     self.shakingLabel.hidden = false
 }
     
-override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         
     // Hide the label 1 second after shaking ends
-    var delayInSeconds : Float = 1.0
+    let delayInSeconds : Float = 1.0
         
-    var popTime = dispatch_time(DISPATCH_TIME_NOW,
+    let popTime = dispatch_time(DISPATCH_TIME_NOW,
         (Int64)(delayInSeconds * Float(NSEC_PER_SEC)))
         
     dispatch_after(popTime, dispatch_get_main_queue()) {

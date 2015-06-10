@@ -34,8 +34,8 @@ attachment.physicsBody = SKPhysicsBody(rectangleOfSize:attachment.size)
         
 scene.addChild(attachment)
         
-let pinJoint = SKPhysicsJointPin.jointWithBodyA(anchor.physicsBody,
-    bodyB:attachment.physicsBody, anchor:anchor.position)
+let pinJoint = SKPhysicsJointPin.jointWithBodyA(anchor.physicsBody!,
+    bodyB:attachment.physicsBody!, anchor:anchor.position)
         
 // BEGIN add_joint
 scene.physicsWorld.addJoint(pinJoint)

@@ -156,6 +156,7 @@
 		6867163B1A7F4844008D00BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Secret Lab";
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				686716641A7F4844008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		686716651A7F4844008D00BE /* Build configuration list for PBXNativeTarget "AddressLookupTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				686716671A7F4844008D00BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

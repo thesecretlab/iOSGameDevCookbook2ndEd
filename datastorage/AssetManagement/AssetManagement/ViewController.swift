@@ -18,17 +18,17 @@ class ViewController: UIViewController {
 // Get the list of all .png files in the bundles
 let urls = NSBundle.mainBundle()
     .URLsForResourcesWithExtension("png", subdirectory: nil)
-    as! [NSURL]
+    
         
 // Load all these images
-AssetLoader.loadAssetsAtURLs(urls,
+AssetLoader.loadAssetsAtURLs(urls!,
     withEnumerationBlock: { (url, data, error) -> Void in
             
     // This block is called once for each URL
     if error != nil {
-        println("Failed to load resource \(url.lastPathComponent): \(error!)")
+        print("Failed to load resource \(url.lastPathComponent): \(error!)")
     } else {
-        println("Loaded resource \(url.lastPathComponent) (\(data?.length) bytes)")
+        print("Loaded resource \(url.lastPathComponent) (\(data?.length) bytes)")
     }
             
 })
