@@ -2,6 +2,11 @@
 
 Code from [Secret Lab](http://www.secretlab.com.au)'s book, [iOS Game Development Cookbook Second Edition](http://shop.oreilly.com/product/0636920037170.do).
 
+* Compatible with and updated for:
+** Xcode 6.3 
+** Xcode 6.4 <xcode-6.4 branch>
+** Xcode 7 <xcode-7 branch>
+
 You can email us at [lab@secretlab.com.au](mailto:lab@secretlab.com.au)
 
 ## License
